@@ -1,0 +1,46 @@
+info: ::1 - - [16/Oct/2024:20:18:57 +0000] "POST /api/v1/frontnote/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:20:28 +0000] "POST /api/v1/frontnote/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:23:56 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 201 62 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:24:24 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 54 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:24:43 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 201 62 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:30:09 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 201 82 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:30:24 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 54 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:38:03 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 117 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:40:22 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 201 50 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:40:26 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 201 50 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:42:34 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 122 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:42:53 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 122 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:42:59 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 201 50 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:43:00 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 124 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:43:21 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 124 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:44:03 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 134 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:44:20 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 131 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:46:54 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 201 131 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:49:09 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 91 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:49:18 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 131 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:50:18 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 132 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:50:45 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 97 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [16/Oct/2024:20:51:00 +0000] "POST /api/v1/frontnote/users/register HTTP/1.1" 500 137 "-" "PostmanRuntime/7.39.1"
+

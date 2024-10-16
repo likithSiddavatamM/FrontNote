@@ -10,9 +10,15 @@ class UserService {
   };
 
   //create new user
-  public newUser = async (body: IUser): Promise<IUser> => {
-    const data = await User.create(body);
-    return data;
+  public newUser = async (body: IUser): Promise<any> => {
+      let email = body.email;
+      let UserValue = await User.find({email:email})
+      if(UserValue.length===0){
+        const data = await User.create(body);
+        return data;
+      }
+      return false;
+    
   };
 
   //update a user

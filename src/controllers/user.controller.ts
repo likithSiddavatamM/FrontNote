@@ -3,6 +3,7 @@ import HttpStatus from 'http-status-codes';
 import userService from '../services/user.service';
 
 import { Request, Response, NextFunction } from 'express';
+import { error } from 'winston';
 
 class UserController {
   public UserService = new userService();
@@ -66,11 +67,12 @@ class UserController {
   ): Promise<any> => {
     try {
       const data = await this.UserService.newUser(req.body);
-      res.status(HttpStatus.CREATED).json({
+      if(data)
+      {res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
-        data: data,
-        message: 'User created successfully'
-      });
+        message: `User with name ${data.firstName} ${data.lastName} is been created successfully, you can loggin using ${data.email}`
+      });}
+      throw new Error(`User with name ${req.body.firstName} ${req.body.lastName} is already registered through the email id ${req.body.email}`);
     } catch (error) {
       next(error);
     }
