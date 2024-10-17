@@ -643,3 +643,627 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-10-16T20:51:00.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:21:42.460Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:21:42.489Z"}
+error: 
+    status - 500 
+    message - Error: User with name SANTHOSH SHEKAR is already registered through the email id Santhosh@gmail.com
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:75:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T05:24:00.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:27:54.408Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:27:54.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:28:15.070Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:28:15.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:29:29.240Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:29:29.278Z"}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\Project1\FundDoNotes\src\routes\user.route.ts:20:17)
+    at new UserRoutes (E:\Project1\FundDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\Project1\FundDoNotes\src\routes\index.ts:15:24)
+    at App.initializeRoutes (E:\Project1\FundDoNotes\src\index.ts:52:62)
+    at new App (E:\Project1\FundDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\Project1\FundDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\Project1\FundDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:114:20)
+    at require.extensions.<computed> (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\Project1\FundDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 17 2024 10:59:49 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":970.39},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369455,"external":20629531,"heapTotal":37670912,"heapUsed":27103112,"rss":73052160},"pid":14720,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:20:17)\n    at new UserRoutes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\Project1\\FundDoNotes\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (E:\\Project1\\FundDoNotes\\src\\index.ts:52:62)\n    at new App (E:\\Project1\\FundDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\Project1\\FundDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-17T05:29:49.579Z","trace":[{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":20,"method":"routes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\Project1\FundDoNotes\src\routes\user.route.ts:20:17)
+    at new UserRoutes (E:\Project1\FundDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\Project1\FundDoNotes\src\routes\index.ts:15:24)
+    at App.initializeRoutes (E:\Project1\FundDoNotes\src\index.ts:52:62)
+    at new App (E:\Project1\FundDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\Project1\FundDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\Project1\FundDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:114:20)
+    at require.extensions.<computed> (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\Project1\FundDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 17 2024 10:59:53 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":974.437},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369455,"external":20629531,"heapTotal":37933056,"heapUsed":27105080,"rss":73633792},"pid":948,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:20:17)\n    at new UserRoutes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\Project1\\FundDoNotes\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (E:\\Project1\\FundDoNotes\\src\\index.ts:52:62)\n    at new App (E:\\Project1\\FundDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\Project1\\FundDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-17T05:29:53.627Z","trace":[{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":20,"method":"routes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\Project1\FundDoNotes\src\routes\user.route.ts:25:17)
+    at new UserRoutes (E:\Project1\FundDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\Project1\FundDoNotes\src\routes\index.ts:15:24)
+    at App.initializeRoutes (E:\Project1\FundDoNotes\src\index.ts:52:62)
+    at new App (E:\Project1\FundDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\Project1\FundDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\Project1\FundDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:114:20)
+    at require.extensions.<computed> (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\Project1\FundDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 17 2024 11:00:06 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":987.656},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369455,"external":20629531,"heapTotal":37670912,"heapUsed":26829424,"rss":73510912},"pid":4316,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:25:17)\n    at new UserRoutes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\Project1\\FundDoNotes\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (E:\\Project1\\FundDoNotes\\src\\index.ts:52:62)\n    at new App (E:\\Project1\\FundDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\Project1\\FundDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-17T05:30:06.848Z","trace":[{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":25,"method":"routes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\Project1\FundDoNotes\src\routes\user.route.ts:25:17)
+    at new UserRoutes (E:\Project1\FundDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\Project1\FundDoNotes\src\routes\index.ts:15:24)
+    at App.initializeRoutes (E:\Project1\FundDoNotes\src\index.ts:52:62)
+    at new App (E:\Project1\FundDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\Project1\FundDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\Project1\FundDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:114:20)
+    at require.extensions.<computed> (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\Project1\FundDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 17 2024 11:00:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":992.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369455,"external":20629531,"heapTotal":37670912,"heapUsed":26987608,"rss":73662464},"pid":4204,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:25:17)\n    at new UserRoutes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\Project1\\FundDoNotes\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (E:\\Project1\\FundDoNotes\\src\\index.ts:52:62)\n    at new App (E:\\Project1\\FundDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\Project1\\FundDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-17T05:30:11.827Z","trace":[{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":25,"method":"routes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\Project1\FundDoNotes\src\routes\user.route.ts:25:17)
+    at new UserRoutes (E:\Project1\FundDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\Project1\FundDoNotes\src\routes\index.ts:15:24)
+    at App.initializeRoutes (E:\Project1\FundDoNotes\src\index.ts:52:62)
+    at new App (E:\Project1\FundDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\Project1\FundDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\Project1\FundDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:114:20)
+    at require.extensions.<computed> (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\Project1\FundDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 17 2024 11:00:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":996.609},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369455,"external":20629531,"heapTotal":37933056,"heapUsed":26997568,"rss":73342976},"pid":14720,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:25:17)\n    at new UserRoutes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\Project1\\FundDoNotes\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (E:\\Project1\\FundDoNotes\\src\\index.ts:52:62)\n    at new App (E:\\Project1\\FundDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\Project1\\FundDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-17T05:30:15.787Z","trace":[{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":25,"method":"routes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\Project1\FundDoNotes\src\routes\user.route.ts:25:17)
+    at new UserRoutes (E:\Project1\FundDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\Project1\FundDoNotes\src\routes\index.ts:15:24)
+    at App.initializeRoutes (E:\Project1\FundDoNotes\src\index.ts:52:62)
+    at new App (E:\Project1\FundDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\Project1\FundDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\Project1\FundDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:114:20)
+    at require.extensions.<computed> (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\Project1\FundDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 17 2024 11:00:39 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1019.984},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369455,"external":20629531,"heapTotal":37933056,"heapUsed":26563768,"rss":73261056},"pid":16192,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:25:17)\n    at new UserRoutes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\Project1\\FundDoNotes\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (E:\\Project1\\FundDoNotes\\src\\index.ts:52:62)\n    at new App (E:\\Project1\\FundDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\Project1\\FundDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-17T05:30:39.175Z","trace":[{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":25,"method":"routes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\Project1\FundDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\Project1\FundDoNotes\src\routes\user.route.ts:25:17)
+    at new UserRoutes (E:\Project1\FundDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\Project1\FundDoNotes\src\routes\index.ts:15:24)
+    at App.initializeRoutes (E:\Project1\FundDoNotes\src\index.ts:52:62)
+    at new App (E:\Project1\FundDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\Project1\FundDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\Project1\FundDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:114:20)
+    at require.extensions.<computed> (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\Project1\FundDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 17 2024 11:00:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1033.078},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369455,"external":20629531,"heapTotal":37670912,"heapUsed":26763160,"rss":73195520},"pid":9668,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:25:17)\n    at new UserRoutes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\Project1\\FundDoNotes\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (E:\\Project1\\FundDoNotes\\src\\index.ts:52:62)\n    at new App (E:\\Project1\\FundDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\Project1\\FundDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-17T05:30:52.261Z","trace":[{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":25,"method":"routes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:30:58.604Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:30:58.635Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:31:39.400Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:31:39.431Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:31:41.463Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:31:41.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:31:44.445Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:31:44.473Z"}
+error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at new UserService (E:\Project1\FundDoNotes\src\services\user.service.ts:25:20)
+    at new UserController (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:9:24)
+    at new UserRoutes (E:\Project1\FundDoNotes\src\routes\user.route.ts:7:28)
+    at routes (E:\Project1\FundDoNotes\src\routes\index.ts:15:24)
+    at App.initializeRoutes (E:\Project1\FundDoNotes\src\index.ts:52:62)
+    at new App (E:\Project1\FundDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\Project1\FundDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\Project1\FundDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:114:20)
+    at require.extensions.<computed> (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\Project1\FundDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12) {"date":"Thu Oct 17 2024 11:02:08 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1109.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18376758,"external":20636875,"heapTotal":37933056,"heapUsed":27256216,"rss":73928704},"pid":4920,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: async is not defined\n    at new UserService (E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:25:20)\n    at new UserController (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:9:24)\n    at new UserRoutes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:7:28)\n    at routes (E:\\Project1\\FundDoNotes\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (E:\\Project1\\FundDoNotes\\src\\index.ts:52:62)\n    at new App (E:\\Project1\\FundDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\Project1\\FundDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)","timestamp":"2024-10-17T05:32:08.490Z","trace":[{"column":20,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":"new UserService","line":25,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"new UserController","line":9,"method":null,"native":false},{"column":28,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":7,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false}]}
+error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at new UserService (E:\Project1\FundDoNotes\src\services\user.service.ts:25:10)
+    at new UserController (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:9:24)
+    at new UserRoutes (E:\Project1\FundDoNotes\src\routes\user.route.ts:7:28)
+    at routes (E:\Project1\FundDoNotes\src\routes\index.ts:15:24)
+    at App.initializeRoutes (E:\Project1\FundDoNotes\src\index.ts:52:62)
+    at new App (E:\Project1\FundDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\Project1\FundDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\Project1\FundDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:114:20)
+    at require.extensions.<computed> (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8676087590250392.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\Project1\FundDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12) {"date":"Thu Oct 17 2024 11:02:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1113.234},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18376758,"external":20636875,"heapTotal":37933056,"heapUsed":26823960,"rss":74203136},"pid":680,"uid":null,"version":"v20.17.0"},"stack":"ReferenceError: async is not defined\n    at new UserService (E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:25:10)\n    at new UserController (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:9:24)\n    at new UserRoutes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:7:28)\n    at routes (E:\\Project1\\FundDoNotes\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (E:\\Project1\\FundDoNotes\\src\\index.ts:52:62)\n    at new App (E:\\Project1\\FundDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\Project1\\FundDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)","timestamp":"2024-10-17T05:32:12.413Z","trace":[{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":"new UserService","line":25,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"new UserController","line":9,"method":null,"native":false},{"column":28,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":7,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8676087590250392.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1104,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:32:45.695Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:32:45.722Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:32:50.420Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:32:50.449Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:32:51.858Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:32:51.935Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:32:54.284Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:32:54.367Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:33:08.576Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:33:08.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:36:49.544Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:36:49.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:37:03.253Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:37:03.278Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:37:06.077Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:37:06.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:37:14.941Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:37:14.967Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:37:24.830Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:37:24.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:37:25.990Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:37:26.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:38:30.019Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:38:30.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:38:31.371Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:38:31.426Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:38:33.979Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:38:34.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:38:37.724Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:38:37.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:38:59.501Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:38:59.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:39:01.766Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:39:01.800Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:39:17.647Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:39:17.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:39:35.841Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:39:35.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:39:37.942Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:39:37.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:39:40.420Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:39:40.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:39:43.848Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:39:43.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:41:16.942Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:41:16.972Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:41:20.329Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:41:20.354Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:41:23.483Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:41:23.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:41:28.206Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:41:28.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:41:37.585Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:41:37.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:41:42.585Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:41:42.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:41:45.786Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:41:45.812Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:41:57.754Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:41:57.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:42:00.269Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:42:00.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:42:28.305Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:42:28.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:42:33.278Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:42:33.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:42:34.707Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:42:34.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:42:44.149Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:42:44.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:42:56.203Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:42:56.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:43:01.936Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:43:01.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:43:03.602Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:43:03.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:43:15.412Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:43:15.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:43:59.342Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:43:59.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:44:25.267Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:44:25.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:44:31.448Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:44:31.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:44:39.719Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:44:39.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:44:59.880Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:44:59.908Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:45:21.006Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:45:21.080Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:45:33.987Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:45:34.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:45:44.929Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:45:44.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:45:53.546Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:45:53.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:45:58.085Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:45:58.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:46:07.038Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:46:07.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:46:27.714Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:46:27.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:46:32.793Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:46:32.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:46:44.963Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:46:45.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:46:47.902Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:46:47.928Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:46:53.718Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:46:53.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:46:58.862Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:46:58.892Z"}
+error: 
+    status - 500 
+    message - Error: You have entered a incorrect paassword, try again
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:97:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T05:49:06.432Z"}
+error: 
+    status - 500 
+    message - Error: You have entered a incorrect paassword, try again
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:97:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T05:49:22.589Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at UserService.<anonymous> (E:\Project1\FundDoNotes\src\services\user.service.ts:29:32)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\services\user.service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T05:49:34.794Z"}
+error: 
+    status - 500 
+    message - Error: You have entered a incorrect paassword, try again
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:97:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T05:49:47.927Z"}
+error: 
+    status - 500 
+    message - Error: You have entered a incorrect paassword, try again
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:97:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T05:49:57.879Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:53:05.281Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:53:05.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:53:08.672Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:53:08.699Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:53:19.711Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:53:19.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:53:29.194Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:53:29.229Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:53:30.734Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:53:30.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:53:32.336Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:53:32.363Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:53:34.105Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:53:34.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:53:36.057Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:53:36.100Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at UserService.<anonymous> (E:\Project1\FundDoNotes\src\services\user.service.ts:29:32)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\services\user.service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T05:53:49.361Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at UserService.<anonymous> (E:\Project1\FundDoNotes\src\services\user.service.ts:29:32)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\services\user.service.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T05:54:32.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:56:49.930Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:56:49.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:56:51.901Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:56:51.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:56:54.964Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:56:54.984Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:56:57.829Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:56:57.856Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:57:07.048Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:57:07.079Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:57:09.464Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:57:09.492Z"}
+error: 
+    status - 500 
+    message - Error: User with email Santhwosh@gmail.com doesn't exist, please go with the registersation
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:95:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T05:57:14.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T05:57:59.513Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T05:57:59.540Z"}
+error: 
+    status - 500 
+    message - Error: User with email Santhwosh@gmail.com doesn't exist, please go with the registration
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:95:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T06:06:31.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:17:12.771Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:17:12.816Z"}
+error: 
+    status - 500 
+    message - Error: User with email Santhwosh@gmail.com doesn't exist, please go with the registration
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:95:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T06:17:17.597Z"}
+error: 
+    status - 500 
+    message - Error: You have entered a incorrect paassword, try again
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:97:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T06:17:27.886Z"}
+error: 
+    status - 500 
+    message - Error: You have entered a incorrect paassword, try again
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:97:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T06:17:32.977Z"}
+error: 
+    status - 500 
+    message - Error: User with name undefined undefined is already registered through the email id Santhosh@gmail.com
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:76:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T06:17:47.493Z"}
+error: 
+    status - 500 
+    message - Error: User with name undefined undefined is already registered through the email id Santhosh@gmail.com
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:76:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T06:18:20.294Z"}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as get] (E:\Project1\FundDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\Project1\FundDoNotes\src\routes\user.route.ts:17:17)
+    at new UserRoutes (E:\Project1\FundDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\Project1\FundDoNotes\src\routes\index.ts:15:24)
+    at App.initializeRoutes (E:\Project1\FundDoNotes\src\index.ts:52:62)
+    at new App (E:\Project1\FundDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\Project1\FundDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\Project1\FundDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8051269130570338.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8051269130570338.js:114:20)
+    at require.extensions.<computed> (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8051269130570338.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\Project1\FundDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 17 2024 11:49:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3964.781},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369454,"external":20629531,"heapTotal":37933056,"heapUsed":26915912,"rss":73674752},"pid":8572,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as get] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:17:17)\n    at new UserRoutes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\Project1\\FundDoNotes\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (E:\\Project1\\FundDoNotes\\src\\index.ts:52:62)\n    at new App (E:\\Project1\\FundDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\Project1\\FundDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-17T06:19:43.957Z","trace":[{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as get]","line":521,"method":"<computed> [as get]","native":false},{"column":17,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":17,"method":"routes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:19:53.595Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:19:53.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:20:05.882Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:20:05.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:20:16.084Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:20:16.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:20:21.106Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:20:21.150Z"}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as get] (E:\Project1\FundDoNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\Project1\FundDoNotes\src\routes\user.route.ts:17:17)
+    at new UserRoutes (E:\Project1\FundDoNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\Project1\FundDoNotes\src\routes\index.ts:15:24)
+    at App.initializeRoutes (E:\Project1\FundDoNotes\src\index.ts:52:62)
+    at new App (E:\Project1\FundDoNotes\src\index.ts:33:10)
+    at Object.<anonymous> (E:\Project1\FundDoNotes\src\index.ts:74:13)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (E:\Project1\FundDoNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8051269130570338.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8051269130570338.js:114:20)
+    at require.extensions.<computed> (C:\Users\A1\AppData\Local\Temp\ts-node-dev-hook-8051269130570338.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\Project1\FundDoNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32) {"date":"Thu Oct 17 2024 11:50:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4009.875},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369454,"external":20629531,"heapTotal":37933056,"heapUsed":27032496,"rss":72994816},"pid":4100,"uid":null,"version":"v20.17.0"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as get] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:17:17)\n    at new UserRoutes (E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\Project1\\FundDoNotes\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (E:\\Project1\\FundDoNotes\\src\\index.ts:52:62)\n    at new App (E:\\Project1\\FundDoNotes\\src\\index.ts:33:10)\n    at Object.<anonymous> (E:\\Project1\\FundDoNotes\\src\\index.ts:74:13)\n    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n    at Module._compile (E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1288:32)","timestamp":"2024-10-17T06:20:29.065Z","trace":[{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as get]","line":521,"method":"<computed> [as get]","native":false},{"column":17,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":17,"method":"routes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"E:\\Project1\\FundDoNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":"new App","line":33,"method":null,"native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\src\\index.ts","function":null,"line":74,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1469,"method":"_compile","native":false},{"column":25,"file":"E:\\Project1\\FundDoNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1548,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\A1\\AppData\\Local\\Temp\\ts-node-dev-hook-8051269130570338.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1288,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:20:33.755Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:20:33.783Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:21:20.852Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:21:20.886Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:21:23.526Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:21:23.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:21:28.235Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:21:28.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:21:32.045Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:21:32.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:21:38.378Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:21:38.415Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:21:43.455Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:21:43.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:21:52.540Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:21:52.595Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:21:59.101Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:21:59.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:22:01.439Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:22:01.472Z"}
+error: 
+    status - 500 
+    message - Error: User with name undefined undefined is already registered through the email id Santhosh@gmail.com
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:76:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T06:22:07.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:23:07.620Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:23:07.657Z"}
+error: 
+    status - 500 
+    message - Error: User with name [object Object] is already registered through the email id Santhosh@gmail.com
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:76:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T06:23:12.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:23:27.804Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:23:27.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:23:30.812Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:23:30.846Z"}
+error: 
+    status - 500 
+    message - Error: User with name undefined is already registered through the email id Santhosh@gmail.com
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:76:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T06:23:32.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:24:02.607Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:24:02.629Z"}
+error: 
+    status - 500 
+    message - Error: User with name LIKITH is already registered through the email id Santhosh@gmail.com
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:76:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T06:24:05.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:24:16.378Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:24:16.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:24:18.238Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:24:18.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:24:21.485Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:24:21.518Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:24:24.237Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:24:24.364Z"}
+error: 
+    status - 500 
+    message - Error: User with name LIKITH SIDDU is already registered through the email id Santhosh@gmail.com
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:76:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/frontnote/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-17T06:24:25.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-17T06:38:15.420Z"}
+info: Connected to the database. {"timestamp":"2024-10-17T06:38:15.528Z"}
