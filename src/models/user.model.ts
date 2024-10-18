@@ -6,12 +6,12 @@ const userSchema = new Schema(
     firstName: {
       type: String,
       required: true,
-      minlength: 3, // Minimum of 3 characters
+      minlength: 2, // Minimum of 3 characters
     },
     lastName: {
       type: String,
       required: true,
-      minlength: 3, // Minimum of 3 characters
+      minlength: 2, // Minimum of 3 characters
     },
     email: {
       type: String,
@@ -29,9 +29,9 @@ const userSchema = new Schema(
       minlength: 10, // Minimum of 10 characters
       validate: {
         validator: function (v) {
-          return /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{10,}$/.test(v); // Valid password
+          return /^(?=.*[@$!%*?&.])[A-Za-z\d@$!%*?&.]{10,}$/.test(v); // Added '.' to allowed special characters
         },
-        message: props => `Password must be at least 10 characters long and contain at least one letter, one number, and one special character!`
+        message: props => `Password must be at least 10 characters long and contain at least one special character!`
       }
     }
   },

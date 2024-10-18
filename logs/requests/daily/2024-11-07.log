@@ -1,0 +1,140 @@
+info: ::1 - - [07/Nov/2024:05:07:07 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 130 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:07:20 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 179 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:08:31 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 201 143 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:10:03 +0000] "GET /api/v1/funddonotes/usernotes/readnote/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 176 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:10:31 +0000] "GET /api/v1/funddonotes/usernotes/readnotes HTTP/1.1" 200 145 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:10:37 +0000] "GET /api/v1/funddonotes/usernotes/readnotes HTTP/1.1" 200 145 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:10:39 +0000] "GET /api/v1/funddonotes/usernotes/readnotes HTTP/1.1" 200 145 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:11:19 +0000] "GET /api/v1/funddonotes/usernotes/updatenote/672c4b4fd7699b12d45b2d6e HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:11:24 +0000] "POST /api/v1/funddonotes/usernotes/updatenote/672c4b4fd7699b12d45b2d6e HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:11:30 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 38 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:11:42 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 38 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:12:19 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 59 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:12:27 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 74 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:12:38 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 59 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:13:10 +0000] "POST /api/v1/funddonotes/usernotes/archive/672c4b4fd7699b12d45b2d6e HTTP/1.1" 400 31 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:13:22 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 74 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:13:30 +0000] "POST /api/v1/funddonotes/usernotes/archive/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 21 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:13:37 +0000] "POST /api/v1/funddonotes/usernotes/archive/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 35 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:14:05 +0000] "DELETE /api/v1/funddonotes/usernotes/trashbin/672c4b4fd7699b12d45b2d6e HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:14:14 +0000] "GET /api/v1/funddonotes/usernotes/trashbin/672c4b4fd7699b12d45b2d6e HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:14:22 +0000] "GET /api/v1/funddonotes/usernotes/trashbin HTTP/1.1" 200 2 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:14:38 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 59 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:15:10 +0000] "GET /api/v1/funddonotes/usernotes/trashbin HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:15:24 +0000] "DELETE /api/v1/funddonotes/usernotes/trashbin/672c4b4fd7699b12d45b2d6e HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:15:32 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 74 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:15:55 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 20 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:16:10 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 59 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:16:18 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly/672c4b4fd7699b12d45b2d6e HTTP/1.1" 200 20 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:17:47 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:18:02 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 157 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:19:21 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 400 36 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:19:33 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:20:09 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 104 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:20:20 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:20:23 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 104 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:20:57 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:21:05 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:21:06 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:21:23 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 130 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:21:39 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 400 40 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:21:53 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:22:39 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 117 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:05:45:38 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:05:45:38 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 24785 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:05:45:38 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 200 152071 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:05:45:38 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 230293 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:05:45:38 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1452753 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:05:45:39 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:05:46:17 +0000] "GET /api/v1/funddonotes/api-docs HTTP/1.1" 301 177 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:05:46:17 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:05:46:17 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:05:46:17 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:05:46:17 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:05:46:17 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:06:18:47 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 179 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:06:19:25 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 201 156 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:06:19:45 +0000] "POST /api/v1/funddonotes/usernotes/%E1%B9%9Beadnotes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:06:19:49 +0000] "GET /api/v1/funddonotes/usernotes/%E1%B9%9Beadnotes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:06:20:09 +0000] "GET /api/v1/funddonotes/usernotes/%E1%B9%9Beadnotes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:06:20:16 +0000] "GET /api/v1/funddonotes/usernote/%E1%B9%9Beadnotes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:06:20:37 +0000] "GET /api/v1/funddonotes/usernotes/%E1%B9%9Beadnotes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:06:22:04 +0000] "GET /api/v1/funddonotes/usernotes/readnotes HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:06:22:18 +0000] "GET /api/v1/funddonotes/usernotes/readnotes HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [07/Nov/2024:07:16:13 +0000] "GET /api-docs HTTP/1.1" 301 158 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:07:16:13 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:07:16:13 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 24785 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:07:16:13 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 152071 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:07:16:13 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 230293 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:07:16:13 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1452753 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Nov/2024:07:16:14 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+

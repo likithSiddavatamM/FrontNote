@@ -1,7 +1,6 @@
 import express, { IRouter } from 'express';
 import userController from '../controllers/user.controller';
 import userValidator from '../validators/user.validator';
-import { userAuth } from '../middlewares/auth.middleware';
 
 class UserRoutes {
   private UserController = new userController();
@@ -13,18 +12,18 @@ class UserRoutes {
   }
 
   private routes = () => {
-    //route to get all users
-    /* this.router.get('', this.UserController.getAllUsers); */
 
     //route to create a new user
     this.router.post(
       '/register',
-      // this.UserValidator.newUser,
+      this.UserValidator.RegUser,
       this.UserController.RegUser
     );
+
+    //route to logging the user
     this.router.post(
       '/login',
-      // this.UserValidator.newUser,
+      this.UserValidator.LogUser,
       this.UserController.LogUser
     );
 

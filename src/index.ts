@@ -49,7 +49,7 @@ class App {
   }
 
   public initializeRoutes(): void {
-    this.app.use(`/api/${this.api_version}/frontnote`, routes());
+    this.app.use(`/api/${this.api_version}/funddonotes`, routes());
   }
 
   public initializeErrorHandlers(): void {

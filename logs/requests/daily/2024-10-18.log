@@ -1,0 +1,60 @@
+info: ::1 - - [18/Oct/2024:05:30:17 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 400 168 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:05:30:49 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 400 168 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:05:31:53 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 400 168 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:05:33:26 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 201 118 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:05:36:29 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:05:36:53 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 500 84 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:05:37:02 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 500 112 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:05:41:39 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 400 140 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:05:42:47 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 400 140 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:05:48:12 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 201 121 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:01:17 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 201 125 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:01:42 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 400 89 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:04:03 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:04:11 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 500 118 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:04:27 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 500 84 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:08:59 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:09:06 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 400 115 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:09:23 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 400 81 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:53:15 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:53:29 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 400 89 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:53:47 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:55:01 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 400 114 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:55:10 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 400 114 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:06:55:20 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 400 81 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:04:24 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 500 63 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:04:57 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:05:01 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 400 115 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:05:09 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 400 81 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:05:14 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:05:30 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 400 89 "-" "PostmanRuntime/7.39.1"
+
