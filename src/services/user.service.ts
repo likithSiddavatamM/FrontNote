@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import { IUser } from '../interfaces/user.interface';
+import bcrypt from 'bcrypt';
 
 class UserService {
 
@@ -12,10 +13,10 @@ class UserService {
   //create user for registration
   public newUser = async (body: IUser): Promise<any> => {
       let email = body.email;
-      let UserValue = await User.find({email:email})
+      let UserValue = await User.find({email:body.email})
       if(UserValue.length===0){
-        const data = await User.create(body);
-        return data;
+        body.password = await bcrypt.hash(body.password, 10);
+        return await User.create(body);;
       }
       throw new Error(`User with name is already registered through the email id`);
   };
@@ -24,11 +25,13 @@ class UserService {
   public logging = async(body: IUser): Promise<any> => {
     let UserValue = await User.find({email:body.email})
     if(UserValue.length==0)
-        return "RegErr"
-    else if(body.password!==UserValue[0].password)
-      return "PassErr"
-    else
-      return UserValue[0];
+      throw new Error(`User with email ${body.email} doesn't exist, please go with the registration`);
+
+    let comp = await bcrypt.compare(body.password, UserValue[0].password);
+     if(!comp)
+      throw new Error(`You have entered a incorrect paassword, try again`);
+    
+    return UserValue[0];
   }
   /*//update a user
   public updateUser = async (_id: string, body: IUser): Promise<IUser> => {

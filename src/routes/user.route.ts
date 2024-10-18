@@ -19,12 +19,12 @@ class UserRoutes {
     //route to create a new user
     this.router.post(
       '/register',
-      // this.UserValidator.newUser,
+      this.UserValidator.RegUser,
       this.UserController.RegUser
     );
     this.router.post(
       '/login',
-      // this.UserValidator.newUser,
+      this.UserValidator.LogUser,
       this.UserController.LogUser
     );
 

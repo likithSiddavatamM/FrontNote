@@ -9,7 +9,7 @@ import { object } from '@hapi/joi';
 class UserController {
   public UserService = new userService();
 
-  /**
+  /*
    * Controller to get all users available
    * @param  {object} Request - request object
    * @param {object} Response - response object
@@ -32,7 +32,7 @@ class UserController {
     }
   }; */
 
-  /**
+  /*
    * Controller to get a user
    * @param  {object} Request - request object
    * @param {object} Response - response object
@@ -55,7 +55,7 @@ class UserController {
     }
   }; */
 
-  /**
+  /* *
    * Controller to create new user
    * @param  {object} Request - request object
    * @param {object} Response - response object
@@ -94,14 +94,11 @@ class UserController {
         code: HttpStatus.CREATED,
         message: `You are now loggedIn as ${data.firstName} ${data.lastName}`
       });}
-      if(data=="RegErr")
-        throw new Error(`User with email ${req.body.email} doesn't exist, please go with the registration`);
-      else
-        throw new Error(`You have entered a incorrect paassword, try again`);
-
     } catch (error) {
-      next(error);
-    }
+      {res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+      });}}
   };
 
 
