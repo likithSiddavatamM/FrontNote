@@ -5,11 +5,11 @@ class UserValidator {
   public RegUser = (req: Request, res: Response, next: NextFunction): void => {
     const schema = Joi.object({
       firstName: Joi.string()
-        .min(2) // Minimum of 3 characters
+        .min(2) // Minimum of 2 characters
         .required(),
       
       lastName: Joi.string()
-        .min(2) // Minimum of 3 characters
+        .min(2) // Minimum of 2 characters
         .required(),
       
       email: Joi.string()
@@ -46,11 +46,53 @@ class UserValidator {
         .message('Password must be at least 10 characters long and contain at least one special character!')
     });
     const { error } = schema.validate(req.body);
-    if (error) {
-      next(error);
-    }
-    next();
+    if (error) 
+      res.status(400).json({Error:error.message});
+    else
+      next();
   };
+
+  public id = (req: Request, res: Response, next: NextFunction): void => {
+    const schema = Joi.object({
+        id: Joi.string().required()
+    });
+
+    const { error } = schema.validate(req.body);
+
+    if (error) 
+      res.status(400).json({Error:error.message});
+    else
+      next();
+  };
+
+  public email = (req: Request, res: Response, next: NextFunction): void => {
+    const schema = Joi.object({
+        email: Joi.string().required().email()
+    });
+
+    const { error } = schema.validate(req.body);
+
+    if (error) 
+      res.status(400).json({Error:error.message});
+    else
+      next();
+  };
+
+  public data = (req: Request, res: Response, next: NextFunction): void => {
+    const schema = Joi.object({
+        createdBy: Joi.string().required(),
+        title:Joi.string(),
+        description:Joi.string()
+    });
+
+    const { error } = schema.validate(req.body);
+
+    if (error) 
+      res.status(400).json({Error:error.message});
+    else
+      next();
+  };
+
 }
 
 export default UserValidator;

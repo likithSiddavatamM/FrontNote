@@ -1,7 +1,8 @@
 import { Schema, model } from 'mongoose';
 import { IUser } from '../interfaces/user.interface';
+import { required } from '@hapi/joi';
 
-const userSchema = new Schema(
+const userCreation = new Schema(
   {
     firstName: {
       type: String,
@@ -40,4 +41,17 @@ const userSchema = new Schema(
   }
 );
 
-export default model<IUser>('User', userSchema);
+export default model<IUser>('User', userCreation);
+
+const keepnotes =  model('keepnotes', new Schema({
+
+  title: {type : String , required:true},
+  description:{type : String, default:"Nothing here"},
+  color : {type : String, default:""},
+  isArchive : {type : Boolean, default:false},
+  isTrash : {type : Boolean, default:false},
+  createdBy : {type : String, default:""},
+  email:{type:String}
+
+}));
+export {keepnotes};

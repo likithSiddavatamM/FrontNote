@@ -156,3 +156,711 @@ info: ::1 - - [18/Oct/2024:07:05:14 +0000] "POST /api/v1/funddonotes/users/login
 
 info: ::1 - - [18/Oct/2024:07:05:30 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 400 89 "-" "PostmanRuntime/7.39.1"
 
+info: ::1 - - [18/Oct/2024:07:10:27 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:35 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:37 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:38 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:48 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:48 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:49 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:49 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:50 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:50 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:50 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:51 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:56 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:57 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:57 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:57 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:59 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:10:59 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:11:01 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [18/Oct/2024:07:11:02 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:06:35:32 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 400 81 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:06:36:46 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 400 81 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:06:39:42 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 500 90 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:06:39:54 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 400 140 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:06:40:05 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 201 113 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:06:40:55 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 210 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:07:55:51 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 500 72 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:07:58:52 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 500 90 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:07:58:59 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 400 81 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:07:59:19 +0000] "POST /api/v1/funddonotes/users/login HTTP/1.1" 200 156 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:08:00:31 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 500 72 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:11:08:09 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 500 96 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:11:14:10 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 500 96 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:11:15:15 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 85 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:11:17:18 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 85 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:11:19:02 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 85 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:11:27:34 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 85 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:11:28:44 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 85 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:11:36:49 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 154 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:11:52:36 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 156 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:11:56:01 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 199 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:03:56 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 189 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:19:38 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 500 86 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:23:13 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 212 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:25:54 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 212 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:26:02 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 212 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:28:18 +0000] "POST /api/v1/funddonotes/users/keepnote HTTP/1.1" 200 212 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:37:11 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 212 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:37:15 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 212 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:37:35 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:37:44 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 212 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:42:22 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 212 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:12:57:26 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 11 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Parameter "filter" to find() must be an object, got 6714f97b0156b70afc978c80
+ObjectParameterError: Parameter "filter" to find() must be an object, got 6714f97b0156b70afc978c80
+    at model.Query.Query.find (E:\Project1\FundDoNotes\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\Project1\FundDoNotes\node_modules\mongoose\lib\model.js:2165:13)
+    at UserService.<anonymous> (E:\Project1\FundDoNotes\src\services\user.service.ts:44:32)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\services\user.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\services\user.service.ts:4:12)
+    at UserService.findNote (E:\Project1\FundDoNotes\src\services\user.service.ts:43:51)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:134:35)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:4)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13) {"date":"Sun Oct 20 2024 18:27:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":14477.437},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18295440,"external":20661558,"heapTotal":25767936,"heapUsed":23565376,"rss":61648896},"pid":3840,"uid":null,"version":"v20.17.0"},"stack":"ObjectParameterError: Parameter \"filter\" to find() must be an object, got 6714f97b0156b70afc978c80\n    at model.Query.Query.find (E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\query.js:2098:16)\n    at Function.find (E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\model.js:2165:13)\n    at UserService.<anonymous> (E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:44:32)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:4:12)\n    at UserService.findNote (E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:43:51)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:134:35)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:4)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)","trace":[{"column":16,"file":"E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\query.js","function":"model.Query.Query.find","line":2098,"method":"find","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\model.js","function":"Function.find","line":2165,"method":"find","native":false},{"column":32,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":null,"line":44,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":51,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":"UserService.findNote","line":43,"method":"findNote","native":false},{"column":35,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":134,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":4,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:12:58:27 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 11 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Parameter "filter" to find() must be an object, got 6714f97b0156b70afc978c80
+ObjectParameterError: Parameter "filter" to find() must be an object, got 6714f97b0156b70afc978c80
+    at model.Query.Query.find (E:\Project1\FundDoNotes\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\Project1\FundDoNotes\node_modules\mongoose\lib\model.js:2165:13)
+    at UserService.<anonymous> (E:\Project1\FundDoNotes\src\services\user.service.ts:44:32)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\services\user.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\services\user.service.ts:4:12)
+    at UserService.findNote (E:\Project1\FundDoNotes\src\services\user.service.ts:43:51)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:134:35)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:4)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13) {"date":"Sun Oct 20 2024 18:28:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":14538.5},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18296246,"external":20662364,"heapTotal":59060224,"heapUsed":24001416,"rss":78811136},"pid":12036,"uid":null,"version":"v20.17.0"},"stack":"ObjectParameterError: Parameter \"filter\" to find() must be an object, got 6714f97b0156b70afc978c80\n    at model.Query.Query.find (E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\query.js:2098:16)\n    at Function.find (E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\model.js:2165:13)\n    at UserService.<anonymous> (E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:44:32)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:4:12)\n    at UserService.findNote (E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:43:51)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:134:35)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:4)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)","trace":[{"column":16,"file":"E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\query.js","function":"model.Query.Query.find","line":2098,"method":"find","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\model.js","function":"Function.find","line":2165,"method":"find","native":false},{"column":32,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":null,"line":44,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":51,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":"UserService.findNote","line":43,"method":"findNote","native":false},{"column":35,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":134,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":4,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:12:58:52 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 18 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Parameter "filter" to find() must be an object, got 6714f97b0156b70afc978c80
+ObjectParameterError: Parameter "filter" to find() must be an object, got 6714f97b0156b70afc978c80
+    at model.Query.Query.find (E:\Project1\FundDoNotes\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (E:\Project1\FundDoNotes\node_modules\mongoose\lib\model.js:2165:13)
+    at UserService.<anonymous> (E:\Project1\FundDoNotes\src\services\user.service.ts:44:32)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\services\user.service.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\services\user.service.ts:4:12)
+    at UserService.findNote (E:\Project1\FundDoNotes\src\services\user.service.ts:43:51)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:134:35)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:4)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13) {"date":"Sun Oct 20 2024 18:28:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":14563.609},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18296247,"external":20662365,"heapTotal":59846656,"heapUsed":24034400,"rss":78868480},"pid":8304,"uid":null,"version":"v20.17.0"},"stack":"ObjectParameterError: Parameter \"filter\" to find() must be an object, got 6714f97b0156b70afc978c80\n    at model.Query.Query.find (E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\query.js:2098:16)\n    at Function.find (E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\model.js:2165:13)\n    at UserService.<anonymous> (E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:44:32)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:4:12)\n    at UserService.findNote (E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts:43:51)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:134:35)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:4)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)","trace":[{"column":16,"file":"E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\query.js","function":"model.Query.Query.find","line":2098,"method":"find","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\mongoose\\lib\\model.js","function":"Function.find","line":2165,"method":"find","native":false},{"column":32,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":null,"line":44,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":51,"file":"E:\\Project1\\FundDoNotes\\src\\services\\user.service.ts","function":"UserService.findNote","line":43,"method":"findNote","native":false},{"column":35,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":134,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":4,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:12:59:13 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 112 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:00:20 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 232 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:07:14 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 161 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:07:40 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 127 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:09:22 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 111 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:09:57 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 31 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:10:08 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 138 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:10:14 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 111 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:19:35 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 111 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:24:29 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 77 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:25:21 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 115 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:26:12 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 124 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:26:42 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 124 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:27:16 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:27:37 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:27:41 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 115 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:28:09 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 115 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:28:41 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 115 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:29:01 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:29:53 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:30:08 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:31:21 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:32:12 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:32:46 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:32:53 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:33:18 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 135 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:33:26 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:33:33 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 121 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:33:50 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 47 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:35:40 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 77 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:37:16 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 77 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:37:55 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 77 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:38:51 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 77 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:39:52 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 77 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:40:33 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 77 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:41:59 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 111 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:13:56:26 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 77 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:03:26 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 77 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:04:09 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 143 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:18)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.id (E:\Project1\FundDoNotes\src\validators\user.validator.ts:61:5)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at E:\Project1\FundDoNotes\src\middlewares\auth.middleware.ts:30:5 {"date":"Sun Oct 20 2024 19:34:09 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":18480.546},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18297709,"external":20663837,"heapTotal":58798080,"heapUsed":23962480,"rss":78143488},"pid":6332,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:18)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at UserValidator.id (E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts:61:5)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts:30:5","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":18,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts","function":"UserValidator.id","line":61,"method":"id","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":30,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:14:04:39 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 30 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:18)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.id (E:\Project1\FundDoNotes\src\validators\user.validator.ts:61:5)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at E:\Project1\FundDoNotes\src\middlewares\auth.middleware.ts:30:5 {"date":"Sun Oct 20 2024 19:34:39 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":18510.046},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18297729,"external":20663857,"heapTotal":59060224,"heapUsed":23989400,"rss":78647296},"pid":16588,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:18)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at UserValidator.id (E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts:61:5)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts:30:5","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":18,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts","function":"UserValidator.id","line":61,"method":"id","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":30,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:14:07:24 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 30 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:18)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.id (E:\Project1\FundDoNotes\src\validators\user.validator.ts:61:5)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at E:\Project1\FundDoNotes\src\middlewares\auth.middleware.ts:30:5 {"date":"Sun Oct 20 2024 19:37:24 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":18675.406},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18297729,"external":20663857,"heapTotal":59322368,"heapUsed":24184648,"rss":79540224},"pid":3912,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:18)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at UserValidator.id (E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts:61:5)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts:30:5","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":18,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts","function":"UserValidator.id","line":61,"method":"id","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":30,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:14:10:17 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 111 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:18)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.id (E:\Project1\FundDoNotes\src\validators\user.validator.ts:61:5)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at E:\Project1\FundDoNotes\src\middlewares\auth.middleware.ts:30:5 {"date":"Sun Oct 20 2024 19:40:24 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":18855.203},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18307103,"external":20674210,"heapTotal":59322368,"heapUsed":25024256,"rss":80289792},"pid":6156,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:18)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at UserValidator.id (E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts:61:5)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts:30:5","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":18,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts","function":"UserValidator.id","line":61,"method":"id","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":30,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:14:10:24 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 45 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:18)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.id (E:\Project1\FundDoNotes\src\validators\user.validator.ts:61:5)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at E:\Project1\FundDoNotes\src\middlewares\auth.middleware.ts:30:5 {"date":"Sun Oct 20 2024 19:40:24 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":18855.203},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18313007,"external":20680114,"heapTotal":59322368,"heapUsed":25117736,"rss":80310272},"pid":6156,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:18)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at UserValidator.id (E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts:61:5)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts:30:5","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":18,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts","function":"UserValidator.id","line":61,"method":"id","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":30,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:14:11:04 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 45 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:18)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.id (E:\Project1\FundDoNotes\src\validators\user.validator.ts:61:5)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at E:\Project1\FundDoNotes\src\middlewares\auth.middleware.ts:30:5 {"date":"Sun Oct 20 2024 19:41:04 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":18895.562},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18297614,"external":20663742,"heapTotal":59060224,"heapUsed":24053752,"rss":78925824},"pid":2760,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:18)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at UserValidator.id (E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts:61:5)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts:30:5","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":18,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts","function":"UserValidator.id","line":61,"method":"id","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":30,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:14:16:26 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 45 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:16:30 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 45 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:16:31 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 45 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:16:31 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 45 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:16:38 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 117 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:16:49 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 500 90 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Oct 20 2024 19:46:49 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19239.875},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18287457,"external":20664278,"heapTotal":26292224,"heapUsed":24249664,"rss":62918656},"pid":16988,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at fulfilled (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":58,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"fulfilled","line":5,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Oct 20 2024 19:46:49 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19239.89},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18295649,"external":20662756,"heapTotal":26292224,"heapUsed":24294776,"rss":62853120},"pid":16988,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at fulfilled (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":58,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"fulfilled","line":5,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Oct 20 2024 19:46:49 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19239.89},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18295649,"external":20662756,"heapTotal":26292224,"heapUsed":24339048,"rss":61882368},"pid":16988,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at fulfilled (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":58,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"fulfilled","line":5,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Oct 20 2024 19:46:49 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19239.89},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303841,"external":20670948,"heapTotal":26292224,"heapUsed":24382392,"rss":61927424},"pid":16988,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at fulfilled (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":58,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"fulfilled","line":5,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Oct 20 2024 19:46:49 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19239.89},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303841,"external":20670948,"heapTotal":26292224,"heapUsed":24425640,"rss":61972480},"pid":16988,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at fulfilled (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":58,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"fulfilled","line":5,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Sun Oct 20 2024 19:46:49 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19239.906},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18312033,"external":20679140,"heapTotal":26292224,"heapUsed":24469152,"rss":62025728},"pid":16988,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at fulfilled (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":58,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"fulfilled","line":5,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:14:23:57 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 111 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:24:03 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 119 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:18)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.id (E:\Project1\FundDoNotes\src\validators\user.validator.ts:64:5)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at E:\Project1\FundDoNotes\src\middlewares\auth.middleware.ts:30:5 {"date":"Sun Oct 20 2024 19:54:08 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19678.984},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18290919,"external":20658026,"heapTotal":26292224,"heapUsed":23598296,"rss":62586880},"pid":12952,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:18)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at UserValidator.id (E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts:64:5)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts:30:5","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":18,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts","function":"UserValidator.id","line":64,"method":"id","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":30,"method":null,"native":false}]}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:18)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.id (E:\Project1\FundDoNotes\src\validators\user.validator.ts:64:5)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at E:\Project1\FundDoNotes\src\middlewares\auth.middleware.ts:30:5 {"date":"Sun Oct 20 2024 19:54:08 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19679},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18296824,"external":20663931,"heapTotal":26292224,"heapUsed":23668144,"rss":62668800},"pid":12952,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:18)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at UserValidator.id (E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts:64:5)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts:30:5","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":18,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts","function":"UserValidator.id","line":64,"method":"id","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":30,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:14:24:08 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 45 "-" "PostmanRuntime/7.39.1"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:139:21)
+    at Generator.next (<anonymous>)
+    at E:\Project1\FundDoNotes\src\controllers\user.controller.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:4:12)
+    at UserController.readNote (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:133:18)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at UserValidator.id (E:\Project1\FundDoNotes\src\validators\user.validator.ts:64:5)
+    at Layer.handle [as handle_request] (E:\Project1\FundDoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Project1\FundDoNotes\node_modules\express\lib\router\route.js:149:13)
+    at E:\Project1\FundDoNotes\src\middlewares\auth.middleware.ts:30:5 {"date":"Sun Oct 20 2024 19:54:08 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":19679},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18302725,"external":20669832,"heapTotal":26292224,"heapUsed":23736880,"rss":62750720},"pid":12952,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:139:21)\n    at Generator.next (<anonymous>)\n    at E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:4:12)\n    at UserController.readNote (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:133:18)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at UserValidator.id (E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts:64:5)\n    at Layer.handle [as handle_request] (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts:30:5","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":139,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":71,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"__awaiter","line":4,"method":null,"native":false},{"column":18,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"UserController.readNote","line":133,"method":"readNote","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\validators\\user.validator.ts","function":"UserValidator.id","line":64,"method":"id","native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":149,"method":null,"native":false},{"column":5,"file":"E:\\Project1\\FundDoNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":30,"method":null,"native":false}]}
+info: ::1 - - [20/Oct/2024:14:26:31 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 500 68 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:26:47 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 120 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:30:41 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 120 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:30:49 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 500 68 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:30:54 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 120 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:30:59 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 116 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:31:45 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 116 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:32:01 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 45 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:32:08 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 125 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:33:00 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 111 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:33:21 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 35 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:35:25 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 35 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:35:31 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 45 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:36:03 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 35 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:36:44 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 45 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:39:27 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 201 123 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:39:39 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 500 81 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:39:44 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 400 89 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:39:53 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 500 90 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:40:30 +0000] "POST /api/v1/funddonotes/users/register HTTP/1.1" 500 60 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:43:39 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 111 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:43:44 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 139 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:44:02 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 31 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:44:28 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 200 111 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:45:15 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 139 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:46:21 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 139 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:48:35 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 24 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:49:12 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 128 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:49:25 +0000] "POST /api/v1/funddonotes/users/readnote HTTP/1.1" 400 129 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:56:20 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 33 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:56:26 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 24 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:57:27 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 24 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:58:00 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 24 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:58:46 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 1262 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:14:59:08 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 1262 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:05:00 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 - "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:05:10 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 - "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:05:57 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 - "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:05:57 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 - "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:06:00 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 - "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:07:19 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 - "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:09:07 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 9750 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:11:32 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 9750 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:12:47 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 9640 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:13:44 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 1262 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:14:35 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 87 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:15:53 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 799 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:16:23 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 799 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:17:00 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 787 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:18:30 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 787 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:21:30 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 87 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:22:22 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 102 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:23:14 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 1262 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:23:50 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 32 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:24:01 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 42 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:24:12 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:24:13 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:24:17 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 43 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:37:04 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 33 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:38:36 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 144 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:38:56 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 118 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:39:06 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 123 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:39:58 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 400 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:40:09 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 118 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:40:24 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 400 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:40:29 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 109 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:41:17 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 138 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:41:26 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 146 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:15:42:16 +0000] "POST /api/v1/funddonotes/users/createnote HTTP/1.1" 200 113 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:16:02:36 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 42 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:16:02:51 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 400 42 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:16:03:08 +0000] "POST /api/v1/funddonotes/users/readnotes HTTP/1.1" 200 2135 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:09:40 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 400 52 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:10:21 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 200 158 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:11:17 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 200 165 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:11:44 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 400 48 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:11:54 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 200 149 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:12:11 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 400 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:12:44 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 200 125 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:28:33 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 400 77 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:28:53 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 400 54 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:31:14 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 200 160 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:31:49 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 200 168 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:33:09 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 400 61 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:34:44 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 500 90 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:18:36:13 +0000] "POST /api/v1/funddonotes/users/updatenote HTTP/1.1" 200 168 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:01:21 +0000] "POST /api/v1/funddonotes/users/deletenote HTTP/1.1" 200 183 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:03:31 +0000] "POST /api/v1/funddonotes/users/deletenote HTTP/1.1" 400 31 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:11:29 +0000] "POST /api/v1/funddonotes/users/deletenote HTTP/1.1" 400 30 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:11:37 +0000] "POST /api/v1/funddonotes/users/deletenotes HTTP/1.1" 400 50 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:13:01 +0000] "POST /api/v1/funddonotes/users/deletenotes HTTP/1.1" 400 50 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:18:21 +0000] "POST /api/v1/funddonotes/users/deletenotes HTTP/1.1" 200 30 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:22:22 +0000] "POST /api/v1/funddonotes/users/deletenotes HTTP/1.1" 200 2 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:23:10 +0000] "POST /api/v1/funddonotes/users/deletenotes HTTP/1.1" 200 20 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:24:45 +0000] "POST /api/v1/funddonotes/users/deletenote HTTP/1.1" 200 20 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:31:33 +0000] "POST /api/v1/funddonotes/users/trash HTTP/1.1" 200 201 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:32:31 +0000] "POST /api/v1/funddonotes/users/trash HTTP/1.1" 200 168 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:33:25 +0000] "POST /api/v1/funddonotes/users/trash HTTP/1.1" 200 153 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:33:59 +0000] "POST /api/v1/funddonotes/users/trash HTTP/1.1" 200 145 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:34:59 +0000] "POST /api/v1/funddonotes/users/trash HTTP/1.1" 200 2716 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:35:47 +0000] "POST /api/v1/funddonotes/users/trash HTTP/1.1" 200 2356 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:36:42 +0000] "POST /api/v1/funddonotes/users/trash HTTP/1.1" 200 2455 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:37:54 +0000] "POST /api/v1/funddonotes/users/trash HTTP/1.1" 200 2169 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:44:06 +0000] "POST /api/v1/funddonotes/users/archive HTTP/1.1" 200 21 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:44:28 +0000] "POST /api/v1/funddonotes/users/archive HTTP/1.1" 400 118 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:44:33 +0000] "POST /api/v1/funddonotes/users/archive HTTP/1.1" 400 45 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:50:53 +0000] "POST /api/v1/funddonotes/users/archives HTTP/1.1" 200 137 "-" "PostmanRuntime/7.39.1"
+
+info: ::1 - - [20/Oct/2024:19:51:27 +0000] "POST /api/v1/funddonotes/users/archives HTTP/1.1" 200 263 "-" "PostmanRuntime/7.39.1"
+

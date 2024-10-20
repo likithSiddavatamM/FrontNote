@@ -50,6 +50,7 @@ class App {
 
   public initializeRoutes(): void {
     this.app.use(`/api/${this.api_version}/funddonotes`, routes());
+    // this.app.use(`/api/${this.api_version}/funddonotes`, routes())
   }
 
   public initializeErrorHandlers(): void {
