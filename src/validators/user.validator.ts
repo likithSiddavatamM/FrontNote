@@ -80,7 +80,7 @@ class UserValidator {
 
   public data = (req: Request, res: Response, next: NextFunction): void => {
     const schema = Joi.object({
-        createdBy: Joi.string().required(),
+        id: Joi.string().required(),
         title:Joi.string(),
         description:Joi.string()
     });

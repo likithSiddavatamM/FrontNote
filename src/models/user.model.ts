@@ -1,6 +1,5 @@
 import { Schema, model } from 'mongoose';
 import { IUser } from '../interfaces/user.interface';
-import { required } from '@hapi/joi';
 
 const userCreation = new Schema(
   {
@@ -9,11 +8,13 @@ const userCreation = new Schema(
       required: true,
       minlength: 2, // Minimum of 3 characters
     },
+
     lastName: {
       type: String,
       required: true,
       minlength: 2, // Minimum of 3 characters
     },
+
     email: {
       type: String,
       required: true,
@@ -24,6 +25,7 @@ const userCreation = new Schema(
         message: props => `${props.value} is not a valid email!`
       }
     },
+
     password: {
       type: String,
       required: true,
@@ -36,22 +38,10 @@ const userCreation = new Schema(
       }
     }
   },
+
   {
     timestamps: true // Automatically add createdAt and updatedAt fields
   }
 );
 
 export default model<IUser>('User', userCreation);
-
-const keepnotes =  model('keepnotes', new Schema({
-
-  title: {type : String , required:true},
-  description:{type : String, default:"Nothing here"},
-  color : {type : String, default:""},
-  isArchive : {type : Boolean, default:false},
-  isTrash : {type : Boolean, default:false},
-  createdBy : {type : String, default:""},
-  email:{type:String}
-
-}));
-export {keepnotes};
