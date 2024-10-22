@@ -36,33 +36,27 @@ class NoteRoutes {
     );
 
     //route to update a note
-    this.router.patch(
+    this.router.put(
       '/updatenote',
       userAuth,
       this.NoteValidator.data,
       this.NoteController.updateNote
     );
 
-    //route to delete a note
+    //route to trash a note
     this.router.delete(
-      '/deletenote',
-      userAuth,
-      this.NoteValidator.id,
-      this.NoteController.deleteNote
-    );
-
-    //route to delete all notes
-    this.router.delete(
-      '/deletenotes',
-      userAuth,
-      this.NoteController.deleteNotes
-    );
-
-    //route to view trash
-    this.router.get(
       '/trash',
       userAuth,
+      this.NoteValidator.id,
       this.NoteController.trash
+    );
+
+    //route to delete notes permanetly from trash
+    this.router.delete(
+      '/deletepermanetly',
+      userAuth,
+      this.NoteValidator.id,
+      this.NoteController.deletePermanetly
     );
 
     //route to archive a note 
@@ -72,6 +66,14 @@ class NoteRoutes {
       this.NoteValidator.id,
       this.NoteController.archive
     );
+
+    //route to view trashBin
+    this.router.get(
+      '/trashBin',
+      userAuth,
+      this.NoteController.trashBin
+    );
+
     //route to view all archives 
     this.router.get(
       '/archives',

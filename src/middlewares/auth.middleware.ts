@@ -25,7 +25,6 @@ export const userAuth = async (
       };}
 
     req.body.email=await jwt.verify(bearerToken.split(' ')[1], process.env.SECRET_KEY);
-    console.log(req.body.email);
     next();
   } catch (error) {
     res.json({Error : `${error}`})

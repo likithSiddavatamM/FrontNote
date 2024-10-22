@@ -11,7 +11,6 @@ class NoteController {
       res: Response,
       next: NextFunction
     ):Promise<any>=>{try {
-      //req.body.email=await jwt.decode(req.header('Authorization').split(' ')[1]);
       res.status(200).json(await this.NoteService.createNote(req.body));
     } catch (error) {
         res.status(400).json({Error:`${error}`});
@@ -25,7 +24,6 @@ class NoteController {
       next: NextFunction
     ):Promise<any> =>{
         try{     
-          //req.body.email=await jwt.decode(req.header('Authorization').split(' ')[1]);
           res.json(await this.NoteService.findNote(req.body))}
         catch (error) {
         res.status(400).json({Error:error.message});
@@ -39,7 +37,7 @@ class NoteController {
       next: NextFunction
     ):Promise<any> =>{
         try{     
-          res.json(await this.NoteService.findNotes(/*await jwt.decode(req.header('Authorization').split(' ')[1])*/req.body.email))}
+          res.json(await this.NoteService.findNotes(req.body.email))}
           
         catch (error) {
         res.status(400).json({Error:`${error}`});
@@ -53,7 +51,6 @@ class NoteController {
       next: NextFunction
     ):Promise<any> =>{
         try{
-          //req.body.email=await jwt.decode(req.header('Authorization').split(' ')[1]);
           res.json(await this.NoteService.updateNote(req.body))       
         }
         catch (error) {
@@ -62,14 +59,13 @@ class NoteController {
     }
 
     //move note to trash
-    public deleteNote = async (
+    public trash = async (
       req: Request,
       res: Response,
       next: NextFunction
     ):Promise<any> =>{
         try{ 
-          //req.body.email=await jwt.decode(req.header('Authorization').split(' ')[1]);    
-          res.json({RecordsDeleted:(await this.NoteService.deleteNote(req.body)).nModified})       
+          res.json({Status:(await this.NoteService.trash(req.body))})       
         }
         catch (error) {
         res.status(400).json({Error:`${error}`});
@@ -77,13 +73,13 @@ class NoteController {
     }
 
     //Move all notes to trash
-    public deleteNotes = async (
+    public deletePermanetly = async (
       req: Request,
       res: Response,
       next: NextFunction
     ):Promise<any> =>{
         try{     
-          res.json({RecordsDeleted:(await this.NoteService.deleteNotes(/*await jwt.decode(req.header('Authorization').split(' ')[1])*/req.body.email)).nModified})       
+          res.json({RecordsDeleted:(await this.NoteService.deletePermanetly(req.body)).deletedCount})       
         }
         catch (error) {
         res.status(400).json({Error:`${error}`});
@@ -91,13 +87,13 @@ class NoteController {
     }
 
     //View trash
-    public trash = async (
+    public trashBin = async (
       req: Request,
       res: Response,
       next: NextFunction
     ):Promise<any> =>{
         try{     
-          res.json(await this.NoteService.trash(/*await jwt.decode(req.header('Authorization').split(' ')[1])*/req.body.email))      
+          res.json(await this.NoteService.trashBin(req.body.email))      
         }
         catch (error) {
         res.status(400).json({Error:`${error}`});
@@ -111,8 +107,7 @@ class NoteController {
       next: NextFunction
     ):Promise<any> =>{
         try{     
-          //req.body.email=await jwt.decode(req.header('Authorization').split(' ')[1]);                
-          res.json({RecordsArchived:(await this.NoteService.archive(req.body)).nModified})      
+          res.json({Status:(await this.NoteService.archive(req.body))})      
         }
         catch (error) {
         res.status(400).json({Error:`${error}`});
@@ -126,7 +121,7 @@ class NoteController {
       next: NextFunction
     ):Promise<any> =>{
         try{     
-          res.json(await this.NoteService.archives(/*await jwt.decode(req.header('Authorization').split(' ')[1])*/req.body.email))   
+          res.json(await this.NoteService.archives(req.body.email))   
         }
         catch (error) {
         res.status(400).json({Error:`${error}`});
