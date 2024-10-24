@@ -11,8 +11,8 @@ class NoteService {
   }
 
   //find a note
-  public findNote = async(body:any): Promise<any> => {
-    let data = await keepnotes.find({$and : [{email:body.email},{_id:body.id},{isArchive:false},{isTrash:false}]},{title: true,description:true,  createdBy:true, email:true/* ,_id:false */});
+  public findNote = async(req:any): Promise<any> => {
+    let data = await keepnotes.find({$and : [{email:req.body.email},{_id:req.params.id},{isArchive:false},{isTrash:false}]},{title: true,description:true,  createdBy:true, email:true/* ,_id:false */});
     if(data.length==0)
        throw new Error("No such note");
     return data[0];
@@ -27,19 +27,19 @@ class NoteService {
   }
 
   //update note
-  public updateNote = async(body:any): Promise<any> => {
-    let data = await this.findNote(body)
-    if(body.title)
-        data.title=body.title;
-    if(body.description)
-        data.description=body.description;
+  public updateNote = async(req:any): Promise<any> => {
+    let data = await keepnotes.findOne({$and : [{email:req.body.email},{_id:req.body.id},{isArchive:false},{isTrash:false}]})
+    if(req.body.title)
+        data.title=req.body.title;
+    if(req.body.description)
+        data.description=req.body.description;
     return await data.save();
   }
   
   //delete note
-  public trash = async(body:any): Promise<any> => 
+  public trash = async(req:any): Promise<any> => 
   { 
-    let myData = await keepnotes.findOne({$and :[{email:body.email},{_id:body.id}]})
+    let myData = await keepnotes.findOne({$and :[{email:req.body.email},{_id:req.params.id}]})
     if(!myData)
       throw new Error("No such data")
     myData.isTrash=!myData.isTrash
@@ -48,17 +48,17 @@ class NoteService {
     
   }
   //delete notes
-  public deletePermanetly = async(body:any): Promise<any> => 
-    await keepnotes.deleteOne({$and:[{email:body.email},{_id:body.id},{isTrash:true}]})
+  public deletePermanetly = async(req:any): Promise<any> => 
+    await keepnotes.deleteOne({$and:[{email:req.body.email},{_id:req.params.id},{isTrash:true}]})
 
   //trashed notes
   public trashBin = async(email:any): Promise<any> => 
     await keepnotes.find({$and :[{email:email},{isTrash:true}] }, {title: true, description:true,  createdBy:true,email:true,_id:false})
   
   //archive note
-  public archive = async(body:any): Promise<any> => 
+  public archive = async(req:any): Promise<any> => 
   {
-    let myData = await keepnotes.findOne({$and :[{email:body.email},{_id:body.id},{isTrash:false}]})
+    let myData = await keepnotes.findOne({$and :[{email:req.body.email},{_id:req.params.id},{isTrash:false}]})
     if(!myData)
       throw new Error("No such data")
     myData.isArchive=!myData.isArchive

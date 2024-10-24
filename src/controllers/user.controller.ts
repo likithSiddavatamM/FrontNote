@@ -7,7 +7,7 @@ class UserController {
   public UserService = new userService();
 
     //Register a user
-    public RegUser = async (
+    public regUser = async (
       req: Request,
       res: Response,
       next: NextFunction
@@ -29,7 +29,7 @@ class UserController {
     };
 
     //LogIn user
-    public LogUser = async (
+    public logUser = async (
       req: Request,
       res: Response,
       next: NextFunction
@@ -48,6 +48,35 @@ class UserController {
           message: `${error}`
         });}}
     };
+
+    public forgotPassword = async(
+      req: Request,
+      res: Response,
+      next: NextFunction)=>
+      {
+        try{
+          let data =  await this.UserService.forgotPassword(req.body.email)
+          res.json({code: data.response,
+            message: `Reset link sent successfully to : ${data.envelope.to}`})
+        }
+        catch(error){
+            res.json({message: error.message})
+        }
+    }
+
+    public resetPassword = async(
+      req: Request,
+      res: Response,
+      next: NextFunction)=>
+    {
+      try{
+        await this.UserService.resetPassword(req.body)
+        res.json({data:`Password updated successfully, you can login through your updated password` })
+      }
+      catch(error){
+          res.json({message:error})
+      }
+    }
 }
 
 export default UserController;

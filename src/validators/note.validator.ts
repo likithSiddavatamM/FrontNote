@@ -6,9 +6,9 @@ class NoteValidator {
   public id = (req: Request, res: Response, next: NextFunction): void => {
       const schema = Joi.object({
           id: Joi.string().required(),
-          email : Joi.string()
+          // email : Joi.string()
       });
-      const { error } = schema.validate(req.body);
+      const { error } = schema.validate(req.params);
       if (error) 
         res.status(400).json({Error:error.message});
       else
@@ -31,6 +31,19 @@ class NoteValidator {
   public data = (req: Request, res: Response, next: NextFunction): void => {
       const schema = Joi.object({
           id: Joi.string().required(),
+          title:Joi.string(),
+          description:Joi.string(),
+          email : Joi.string()
+      });
+      const { error } = schema.validate(req.body);
+      if (error) 
+        res.status(400).json({Error:error.message});
+      else
+        next();
+    };
+
+    public uData = (req: Request, res: Response, next: NextFunction): void => {
+      const schema = Joi.object({
           title:Joi.string(),
           description:Joi.string(),
           email : Joi.string()

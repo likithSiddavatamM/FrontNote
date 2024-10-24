@@ -17,12 +17,13 @@ class NoteRoutes {
     this.router.post(
       '/createnote',
       userAuth,
+      this.NoteValidator.uData,
       this.NoteController.createNote
     );
 
     //route to read a note
     this.router.get(
-      '/readnote',
+      '/readnote/:id',
       userAuth,
       this.NoteValidator.id,
       this.NoteController.readNote
@@ -45,7 +46,7 @@ class NoteRoutes {
 
     //route to trash a note
     this.router.delete(
-      '/trash',
+      '/trash/:id',
       userAuth,
       this.NoteValidator.id,
       this.NoteController.trash
@@ -53,7 +54,7 @@ class NoteRoutes {
 
     //route to delete notes permanetly from trash
     this.router.delete(
-      '/deletepermanetly',
+      '/deletepermanetly/:id',
       userAuth,
       this.NoteValidator.id,
       this.NoteController.deletePermanetly
@@ -61,7 +62,7 @@ class NoteRoutes {
 
     //route to archive a note 
     this.router.post(
-      '/archive',
+      '/archive/:id',
       userAuth,
       this.NoteValidator.id,
       this.NoteController.archive

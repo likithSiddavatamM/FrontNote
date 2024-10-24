@@ -1,5 +1,5 @@
 import User from '../models/user.model';
-
+import Transporter from '../utils/user.util'
 import { IUser } from '../interfaces/user.interface';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
@@ -8,7 +8,7 @@ class UserService {
   public newUser = async (body: IUser): Promise<any> => {
       if((await User.find({email:body.email})).length===0){
         body.password = await bcrypt.hash(body.password, 10);
-        return await User.create(body);;
+        return await User.create(body);
       }
       throw new Error(`User with name is already registered through the email id`);
   };
@@ -24,6 +24,19 @@ class UserService {
     UserValue[0].AccessToken=jwt.sign(body.email,process.env.SECRET_KEY);
     return UserValue[0];
   } 
+
+  //forgot password
+  public forgotPassword = async(email: any)=>{
+      let data = await User.findOne({email:email})
+      if(!data)
+        throw new Error(`User with email ${email} doesn't exist, please go with the registration`);
+      return await Transporter.sendMail(await jwt.sign(email, process.env.FORGOTPASSWORD_SECRET_KEY), email)
+  }
+
+  //reset password
+  public resetPassword = async(body : any)=>
+     await User.updateOne({email:body.email},{$set:{password:(await bcrypt.hash(body.password,9))}})
 } 
+
 
 export default UserService;

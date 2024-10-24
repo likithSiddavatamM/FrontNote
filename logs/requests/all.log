@@ -1176,3 +1176,971 @@ info: ::1 - - [22/Oct/2024:11:21:22 +0000] "DELETE /api/v1/funddonotes/usernotes
 
 info: ::1 - - [22/Oct/2024:11:21:27 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly HTTP/1.1" 200 20 "-" "PostmanRuntime/7.42.0"
 
+info: ::1 - - [23/Oct/2024:07:52:08 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:52:08 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:54:35 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:54:37 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:54:38 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:54:38 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:54:38 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:54:38 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:54:38 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:54:39 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:54:39 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:54:39 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:07:54:39 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:00:58 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:01:00 +0000] "GET /api-docs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:35 +0000] "GET /api/v1/funddonotes/api-docs HTTP/1.1" 301 177 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:35 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:35 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 13629 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:35 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 200 152071 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:35 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 230293 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:35 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1452753 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:37 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:51 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:51 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:51 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:51 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:51 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 1723 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:41:51 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:42:13 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:42:13 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:42:13 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:42:13 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:42:13 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:42:13 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:29 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:59 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:59 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:59 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:59 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 11240 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:59 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:44:59 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:47:15 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:47:15 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:47:15 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 11492 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:47:15 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:47:15 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:47:15 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:48:14 +0000] "POST /api/v1/user/register HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:49:04 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:49:04 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:49:04 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 11503 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:49:04 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:49:04 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:49:04 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:49:41 +0000] "POST /api/v1/funddonotesuser/register HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:49:54 +0000] "POST /api/v1/funddonotesuser/register HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:49:56 +0000] "POST /api/v1/funddonotesuser/register HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:50:00 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:50:00 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:50:00 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:50:00 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:50:00 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 11504 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:50:01 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:50:08 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 89 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:50:30 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 119 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:46 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:46 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:46 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:46 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 11501 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:46 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:46 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:56 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 11498 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:51:56 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:52:23 +0000] "POST /api/v1/user/login HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:54:26 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:54:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:54:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:54:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 11618 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:54:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:54:26 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:08:54:35 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:03:01 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:03:01 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:03:01 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:03:01 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:03:01 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:03:02 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:04:59 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:04:59 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:04:59 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 11868 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:04:59 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:04:59 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:04:59 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:11:09 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:11:09 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12679 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:11:09 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:11:09 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:11:09 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:11:09 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:14:47 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:19:55 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:19:55 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:19:55 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12683 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:19:55 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:19:55 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:19:55 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:20:17 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:21:44 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 155 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:09:22:00 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 113 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:09:22:23 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 112 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:09:23:13 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:23:57 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:23:57 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12686 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:23:57 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:23:57 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:23:57 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:23:58 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:24:31 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:25:39 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 80 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:25:56 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:26:35 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:26:40 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:27:33 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:28:04 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 114 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:30:51 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:30:51 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:30:51 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:30:51 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12888 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:30:51 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:30:51 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:31:42 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:31:42 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:31:42 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:31:42 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:31:42 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12757 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:31:43 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:23 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:23 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:23 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:23 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:23 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:23 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:37 +0000] "GET /api/v1/funddonotes/usernotes/readnote HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:58 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:58 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:58 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:58 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:58 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:32:58 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:33:18 +0000] "GET /api/v1/funddonotes/usernotes/readnotes HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:00 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:01 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:01 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:01 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12686 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:01 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:01 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:41 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:41 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:41 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:41 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:41 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12757 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:39:41 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:45:43 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:45:43 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:45:43 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:45:43 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 13360 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:45:43 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:45:44 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:03 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:03 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:03 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:03 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12708 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:03 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:04 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:27 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:27 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:27 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12757 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:27 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:27 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:48:28 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:53:36 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:53:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:53:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:53:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12938 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:53:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:53:37 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:55:26 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:55:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:55:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:55:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12937 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:55:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:55:27 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:17 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:23 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:29 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:30 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:30 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:30 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:31 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:31 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:36 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:36 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:47 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:49 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:56:54 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:58:41 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:58:41 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:58:41 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 12885 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:58:41 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:58:41 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:58:41 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:09:58:49 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:10:19:32 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 121 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Oct/2024:13:40:28 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 155 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:13:42:09 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 112 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:13:50:12 +0000] "POST /api/v1/funddonotes/usernotes/readnote/6718fd3106c2523e74cca39d HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:13:51:01 +0000] "POST /api/v1/funddonotes/usernotes/readnote/6718fd3106c2523e74cca39d HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:13:54:12 +0000] "POST /api/v1/funddonotes/usernotes/readnote/6718fd3106c2523e74cca39d HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:13:57:54 +0000] "POST /api/v1/funddonotes/usernotes/readnote/6718fd3106c2523e74cca39d HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:13:58:43 +0000] "POST /api/v1/funddonotes/usernotes/readnote/6718fd3106c2523e74cca39d HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:13:58:56 +0000] "POST /api/v1/funddonotes/usernotes/readnote/6718fd3106c2523e74cca39d HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:00:39 +0000] "GET /api/v1/funddonotes/usernotes/readnote/6718fd3106c2523e74cca39d HTTP/1.1" 400 36 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:01:12 +0000] "GET /api/v1/funddonotes/usernotes/readnote/6718fd3106c2523e74cca39d HTTP/1.1" 200 145 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:03:59 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/6718fd3106c2523e74cca39d HTTP/1.1" 200 59 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:04:10 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/6718fd3106c2523e74cca39d HTTP/1.1" 200 74 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:06:20 +0000] "POST /api/v1/funddonotes/usernotes/archive/6718fd3106c2523e74cca39d HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:07:06 +0000] "POST /api/v1/funddonotes/usernotes/archive/6718fd3106c2523e74cca39d HTTP/1.1" 200 21 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:07:15 +0000] "POST /api/v1/funddonotes/usernotes/archive/6718fd3106c2523e74cca39d HTTP/1.1" 200 35 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:08:19 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermantly/6718fd3106c2523e74cca39d HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:08:40 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly/6718fd3106c2523e74cca39d HTTP/1.1" 200 20 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:09:01 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/6718fd3106c2523e74cca39d HTTP/1.1" 200 59 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:09:06 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly/6718fd3106c2523e74cca39d HTTP/1.1" 200 20 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:10:14 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 80 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:10:29 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:11:13 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/6718cdb4234c46122ca12ef3 HTTP/1.1" 200 59 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [23/Oct/2024:14:11:24 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly/6718cdb4234c46122ca12ef3 HTTP/1.1" 200 20 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:02:43 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 140 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:02:58 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 140 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:03:04 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 140 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:03:14 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 140 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:03:25 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 140 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:03:31 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 130 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:04:26 +0000] "POST /api/v1/funddonotes/users/forgotpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:04:59 +0000] "POST /api/v1/funddonotes/users/forgotpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:05:35 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 11 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:09:40 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 11 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:11:25 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 508 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:12:14 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 509 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:45:27 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 37 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:46:17 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 37 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:47:25 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 37 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:10:48:42 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:11:05:47 +0000] "GET /api/v1/funddonotes/api-docs HTTP/1.1" 301 177 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:05:47 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:05:47 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 200 152071 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:05:47 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 14397 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:05:47 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 230293 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:05:47 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1452753 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:05:47 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:10:01 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:11:17 +0000] "GET /api/v1/funddonotes/usernotes/readnote/6718c1a4231c8f53f01439e5 HTTP/1.1" 200 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:11:48 +0000] "GET /api/v1/funddonotes/usernotes/readnote/6718c1a4231c8f53f01439e5 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:12:58 +0000] "GET /api/v1/funddonotes/usernotes/readnote/6718c1a4231c8f53f01439e5 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:18:03 +0000] "GET /api/v1/funddonotes/usernotes/readnote/6718c1a4231c8f53f01439e5 HTTP/1.1" 200 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:11:20:14 +0000] "GET /api/v1/funddonotes/usernotes/readnote/6718c1a4231c8f53f01439e5 HTTP/1.1" 200 147 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:21:07 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:21:07 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:21:07 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:21:07 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 14079 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:21:07 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:21:07 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:21:37 +0000] "GET /api/v1/funddonotes/usernotes/readnote/6718c1a4231c8f53f01439e5 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:21:55 +0000] "GET /api/v1/funddonotes/usernotes/readnotes HTTP/1.1" 200 116 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:06 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:06 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:06 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:06 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 16573 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:06 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:07 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:42 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:42 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:42 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:42 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 16217 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:42 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:37:42 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:38:14 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote HTTP/1.1" 400 76 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:40:11 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:40:11 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:40:11 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 16063 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:40:11 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:40:11 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:40:12 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:40:35 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote HTTP/1.1" 400 76 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:41:42 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote HTTP/1.1" 400 76 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:11:44:27 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote HTTP/1.1" 400 31 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:11:45:07 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote HTTP/1.1" 400 31 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:11:47:09 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote HTTP/1.1" 200 199 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:11:49:40 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote HTTP/1.1" 200 203 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [24/Oct/2024:11:49:52 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:49:52 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:49:52 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 16217 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:49:52 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:49:52 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:49:53 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:50:23 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote HTTP/1.1" 200 233 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:11:51:14 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote HTTP/1.1" 200 203 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:08 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:08 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:08 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:08 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 16809 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:08 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:08 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:29 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 17118 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:29 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:29 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:02:54 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/6718c1a4231c8f53f01439e5 HTTP/1.1" 200 59 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:03:08 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/6718c1a4231c8f53f01439e5 HTTP/1.1" 200 74 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:09:56 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:09:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:09:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:09:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:09:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 17798 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:09:56 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:10:28 +0000] "POST /api/v1/funddonotes/usernotes/archive/6718c1a4231c8f53f01439e5 HTTP/1.1" 200 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:10:31 +0000] "POST /api/v1/funddonotes/usernotes/archive/6718c1a4231c8f53f01439e5 HTTP/1.1" 200 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:10:38 +0000] "POST /api/v1/funddonotes/usernotes/archive/6718c1a4231c8f53f01439e5 HTTP/1.1" 200 21 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:10:45 +0000] "POST /api/v1/funddonotes/usernotes/archive/6718c1a4231c8f53f01439e5 HTTP/1.1" 200 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:14:55 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:14:55 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:14:55 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 18624 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:14:55 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:14:55 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:14:55 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:15:49 +0000] "GET /api/v1/funddonotes/usernotes/trashBin HTTP/1.1" 200 119 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:16:49 +0000] "GET /api/v1/funddonotes/usernotes/trashBin HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:20:56 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:20:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:20:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:20:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:20:56 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 19451 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:20:57 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:21:18 +0000] "GET /api/v1/funddonotes/usernotes/archives HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:21:36 +0000] "GET /api/v1/funddonotes/usernotes/archives HTTP/1.1" 200 119 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:24:28 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:24:28 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:24:28 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 20443 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:24:28 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:24:28 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:24:29 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:24:55 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:27:50 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:27:52 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:27:52 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:27:52 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 20448 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:27:52 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:27:52 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:27:53 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:28:14 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly/6718c1a4231c8f53f01439e5 HTTP/1.1" 200 20 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:28:33 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly/6718c1a4231c8f53f01439e5 HTTP/1.1" 200 20 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:38:13 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 121 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:12:38:45 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 166 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:19:35 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:19:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 20448 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:19:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:19:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:19:36 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:19:36 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:24:03 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:24:03 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:24:03 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:24:03 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 22327 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:24:03 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:24:03 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:24:59 +0000] "POST /api/v1/funddonotes/user/forgetpassword HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:25:26 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:25:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:25:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 22327 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:25:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:25:26 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:25:26 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:25:40 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 491 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:26:23 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 508 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:30:27 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:30:27 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:30:27 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:30:27 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:30:27 +0000] "GET /api/v1/funddonotes/api-docs/swagger-ui-init.js HTTP/1.1" 200 24785 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:30:27 +0000] "GET /api/v1/funddonotes/api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Oct/2024:16:31:03 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 84 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [25/Oct/2024:06:21:59 +0000] "POST /api/v1/funddonotes/user/forgetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:06:22:15 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 217 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:06:22:53 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 152 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:06:34:43 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:06:36:15 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 157 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:06:38:05 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" - - "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:06:38:44 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:06:41:42 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:06:43:22 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:29:16 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 43 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:29:30 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:31:03 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 164 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:31:27 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:31:42 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 164 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:35:52 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:36:13 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 51 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:36:23 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 51 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:37:12 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 51 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:37:23 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 164 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:37:47 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 51 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:39:30 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 164 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:46:05 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:46:08 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:46:17 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 80 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:46:26 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:46:50 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:47:37 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 76 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:47:57 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 76 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:52:04 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:52:19 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:53:55 +0000] "GET /api/v1/funddonotes/usernotes/readnote/671b4b32b849735d5439a207 HTTP/1.1" 200 197 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:56:03 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:56:23 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:07:57:50 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 157 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:02:58 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:03:20 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 48 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:04:04 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 48 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:05:11 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 48 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:05:25 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:05:33 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 48 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:05:58 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:08:14 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:08:33 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:08:55 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:09:59 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:10:54 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 157 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:11:08 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:18:24 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:18:56 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:08:19:25 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:11:20 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:13:18 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 157 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:13:32 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 400 33 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:13:42 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 400 33 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:14:01 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 400 33 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:14:59 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 400 33 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:16:40 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:18:22 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 14 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:18:56 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 14 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:19:11 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 14 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:21:23 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 14 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:21:33 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 19 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:22:03 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 14 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:22:44 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 14 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:24:47 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 14 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:25:31 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 14 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:27:25 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 105 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:28:31 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:28:56 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:30:12 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 123 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:30:24 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 80 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:30:59 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 24 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [25/Oct/2024:09:31:16 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 105 "-" "PostmanRuntime/7.42.0"
+

@@ -24,7 +24,7 @@ class NoteController {
       next: NextFunction
     ):Promise<any> =>{
         try{     
-          res.json(await this.NoteService.findNote(req.body))}
+          res.json(await this.NoteService.findNote(req))}
         catch (error) {
         res.status(400).json({Error:error.message});
       }
@@ -51,7 +51,7 @@ class NoteController {
       next: NextFunction
     ):Promise<any> =>{
         try{
-          res.json(await this.NoteService.updateNote(req.body))       
+          res.json(await this.NoteService.updateNote(req))       
         }
         catch (error) {
         res.status(400).json({Error:`${error}`});
@@ -65,7 +65,7 @@ class NoteController {
       next: NextFunction
     ):Promise<any> =>{
         try{ 
-          res.json({Status:(await this.NoteService.trash(req.body))})       
+          res.json({Status:(await this.NoteService.trash(req))})       
         }
         catch (error) {
         res.status(400).json({Error:`${error}`});
@@ -79,7 +79,7 @@ class NoteController {
       next: NextFunction
     ):Promise<any> =>{
         try{     
-          res.json({RecordsDeleted:(await this.NoteService.deletePermanetly(req.body)).deletedCount})       
+          res.json({RecordsDeleted:(await this.NoteService.deletePermanetly(req)).deletedCount})       
         }
         catch (error) {
         res.status(400).json({Error:`${error}`});
@@ -107,7 +107,7 @@ class NoteController {
       next: NextFunction
     ):Promise<any> =>{
         try{     
-          res.json({Status:(await this.NoteService.archive(req.body))})      
+          res.json({Status:(await this.NoteService.archive(req))})      
         }
         catch (error) {
         res.status(400).json({Error:`${error}`});

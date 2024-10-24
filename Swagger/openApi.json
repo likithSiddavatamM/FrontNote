@@ -1,0 +1,748 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "User Notes API",
+      "version": "1.0.0",
+      "description": "API for managing user notes"
+    },
+    
+    "servers": [
+      {
+        "url": "http://localhost:3000",
+        "description": "Local server"
+      }
+    ],
+    "components": {
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "http",
+                "scheme": "bearer",
+                "bearerFormat": "JWT"
+            }
+        }
+    },
+    "security": [
+        {
+            "bearerAuth": []
+        }
+    ],
+    "tags": [
+        {
+            "name": "User",
+            "description": "Operations related to user management"
+        },
+        {
+            "name": "Notes",
+            "description": "Operations related to notes management"
+        }
+    ],
+    "paths": {
+      "/api/v1/funddonotes/user/register": {
+        "post": {
+          "tags": ["User"],
+          "summary": "Register a new user",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "firstName": {
+                      "type": "string"
+                    },
+                    "lastName": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "password": {
+                      "type": "string"
+                    }
+                  },
+                  "required": ["firstName", "lastName","email","password"]
+                }
+              }
+            }
+          },
+          "responses": {
+            "201": {
+              "description": "User registered successfully"
+            },
+            "400": {
+              "description": "Invalid input"
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/user/login": {
+        "post": {
+          "tags": ["User"],
+          "summary": "Login a user",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string"
+                    },
+                    "password": {
+                      "type": "string"
+                    }
+                  },
+                  "required": ["email", "password"]
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "User logged in successfully"
+            },
+            "401": {
+              "description": "Invalid credentials"
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/user/forgotpassword": {
+        "post": {
+          "tags": ["User"],
+          "summary": "Send a password reset link to the user's email",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string",
+                      "format": "email",
+                      "example": "user@example.com"
+                    }
+                  },
+                  "required": ["email"]
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Password reset email sent successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "data": {
+                        "type": "string",
+                        "description": "Confirmation message for email sent or token"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Invalid email or user not found",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Error": {
+                        "type": "string",
+                        "description": "Error message detailing why the request failed"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/user/resetpassword": {
+        "post": {
+          "tags": ["User"],
+          "summary": "Reset the user's password",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "accesstoken": {
+                      "type": "string",
+                      "description": "Access token sent to the user's email for resetting the password",
+                      "example": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+                    },
+                    "password": {
+                      "type": "string",
+                      "description": "New password for the user, must be at least 10 characters and contain a special character",
+                      "example": "newpassword123!"
+                    }
+                  },
+                  "required": ["accesstoken", "password"]
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Password updated successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "data": {
+                        "type": "string",
+                        "description": "Success message confirming password reset",
+                        "example": "Password updated successfully, you can login through your updated password"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Validation error or invalid access token",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Error": {
+                        "type": "string",
+                        "description": "Error message detailing the validation or token failure",
+                        "example": "Access token is invalid or expired"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/usernotes/createnote": {
+        "post": {
+          "tags": ["Notes"],
+                "summary": "Create a new note",
+                "requestBody": {
+                  "required": true,
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "object",
+                        "properties": {
+                          "title": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string"
+                          }
+                        },
+                    "required": ["title", "descrption"]
+                  }
+                }
+              }
+            },
+            "responses": {
+              "201": {
+                "description": "Note created successfully"
+              },
+              "400": {
+              "description": "Invalid input"
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/usernotes/readnote/{id}": {
+        "get": {
+          "tags": ["Notes"],
+          "summary": "Retrieve a specific note by ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "description": "ID of the note to retrieve",
+              "schema": {
+                "type": "string",
+                "example": "607d1b2f9f1b1c001c8e4e1a"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Note retrieved successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "title": {
+                        "type": "string",
+                        "example": "My Note"
+                      },
+                      "description": {
+                        "type": "string",
+                        "example": "This is a description of the note."
+                      },
+                      "createdBy": {
+                        "type": "string",
+                        "example": "user@example.com"
+                      },
+                      "email": {
+                        "type": "string",
+                        "example": "user@example.com"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Bad Request (Invalid token or ID format)",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Error": {
+                        "type": "string",
+                        "example": "Invalid ID format"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "404": {
+              "description": "Note not found",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Error": {
+                        "type": "string",
+                        "example": "No such note"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/usernotes/readnotes": {
+        "get": {
+          "tags": ["Notes"],
+          "summary": "Retrieve all notes",    
+          "responses": {
+            "200": {
+              "description": "All notes retrieved successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "content": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/usernotes/updatenote": {
+        "put": {
+          "tags": ["Notes"],
+          "summary": "Update a specific note by ID",   
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "description": "ID of the note to update",
+                      "example": "60c72b1f5f1b2c001d3f5b9b"
+                    },
+                    "title": {
+                      "type": "string",
+                      "description": "Updated title of the note",
+                      "example": "Updated Note Title"
+                    },
+                    "description": {
+                      "type": "string",
+                      "description": "Updated description of the note",
+                      "example": "Updated note description content"
+                    }
+                  },
+                  "required": ["id"]
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Note updated successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "title": {
+                        "type": "string",
+                        "example": "Updated Note Title"
+                      },
+                      "description": {
+                        "type": "string",
+                        "example": "Updated note description content"
+                      },
+                      "createdBy": {
+                        "type": "string",
+                        "example": "user@example.com"
+                      },
+                      "email": {
+                        "type": "string",
+                        "example": "user@example.com"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Invalid request data (e.g., missing or invalid fields)",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Error": {
+                        "type": "string",
+                        "example": "Invalid ID format"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "404": {
+              "description": "Note not found",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Error": {
+                        "type": "string",
+                        "example": "No such note"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/usernotes/trash/{id}": {
+        "delete": {
+          "tags": ["Notes"],
+          "summary": "Move a specific note to trash or restore from trash by ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "description": "The ID of the note to move to trash or restore",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Note moved to trash or restored successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Status": {
+                        "type": "string",
+                        "example": "Deleted the Note (id:12345) or Restored the Note from TrashBin (id:12345)"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "404": {
+              "description": "Note not found",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Error": {
+                        "type": "string",
+                        "example": "No such data"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/usernotes/deletepermanetly/{id}": {
+        "delete": {
+          "tags": ["Notes"],
+          "summary": "Permanently delete a note from trash by ID",
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "description": "The ID of the note to delete permanently",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Note deleted permanently successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "RecordsDeleted": {
+                        "type": "integer",
+                        "example": 1
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Error deleting the note",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Error": {
+                        "type": "string",
+                        "example": "Authorization token is required"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "404": {
+              "description": "Note not found"
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/usernotes/archive/{id}": {
+        "post": {
+          "tags": ["Notes"],
+          "summary": "Archive or restore a specific note by ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "path",
+              "required": true,
+              "description": "The ID of the note to archive or restore",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Note archived or restored successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Status": {
+                        "type": "string",
+                        "example": "Archived or Restored from Archives"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "404": {
+              "description": "Note not found",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Error": {
+                        "type": "string",
+                        "example": "No such data"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/usernotes/trashBin": {
+        "get": {
+          "tags": ["Notes"],
+          "summary": "View all notes in the trash",
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "All trashed notes retrieved successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "createdBy": {
+                          "type": "string"
+                        },
+                        "email": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Error retrieving trashed notes",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Error": {
+                        "type": "string",
+                        "example": "Authorization token is required"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/api/v1/funddonotes/usernotes/archives": {
+        "get": {
+          "tags": ["Notes"],
+          "summary": "View all archived notes",
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "All archived notes retrieved successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "createdBy": {
+                          "type": "string"
+                        },
+                        "email": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "400": {
+              "description": "Error retrieving archived notes",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "Error": {
+                        "type": "string",
+                        "example": "Authorization token is required"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

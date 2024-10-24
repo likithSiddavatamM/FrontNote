@@ -2,7 +2,7 @@ import Joi from '@hapi/joi';
 import { Request, Response, NextFunction } from 'express';
 
 class UserValidator {
-  public RegUser = (req: Request, res: Response, next: NextFunction): void => {
+  public regUser = (req: Request, res: Response, next: NextFunction): void => {
     const schema = Joi.object({
       firstName: Joi.string()
         .min(2) // Minimum of 2 characters
@@ -31,7 +31,7 @@ class UserValidator {
     next();
   };
 
-  public LogUser = (req: Request, res: Response, next: NextFunction): void => {
+  public logUser = (req: Request, res: Response, next: NextFunction): void => {
     const schema = Joi.object({
       email: Joi.string()
         .email({ tlds: { allow: false } }) // Allow any valid email format
@@ -92,6 +92,23 @@ class UserValidator {
     else
       next();
   };
+
+  public resetPassword = (req: Request, res: Response, next: NextFunction): void => {
+    const schema = Joi.object({
+      // accesstoken : Joi.string().required(),
+      password: Joi.string()
+      .min(10) 
+      .required()
+      .pattern(/^(?=.*[@$!%*?&.])[A-Za-z\d@$!%*?&.]{10,}$/)
+      .message('Password must be at least 10 characters long and contain at least one special character!')
+    });
+
+    const { error } = schema.validate(req.body);
+    if (error) 
+      res.status(400).json({Error:error.message});
+    else
+      next();
+  }
 
 }
 
