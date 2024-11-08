@@ -14,7 +14,7 @@ class UserService {
   };
 
   //create login
-  public logging = async(body: IUser): Promise<any> => {
+  public logging = async(body: any): Promise<any> => {
     let UserValue = await User.find({email:body.email})
     if(UserValue.length==0)
       throw new Error(`User with email ${body.email} doesn't exist, please go with the registration`);
@@ -35,7 +35,11 @@ class UserService {
 
   //reset password
   public resetPassword = async(body : any)=>
-     await User.updateOne({email:body.email},{$set:{password:(await bcrypt.hash(body.password,9))}})
+     {
+      if(!body.fEmail)
+        throw new Error("Invalid Token");
+      await User.updateOne({email:body.fEmail},{$set:{password:(await bcrypt.hash(body.password,9))}})
+    }
 } 
 
 

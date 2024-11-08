@@ -19,20 +19,13 @@ export const userAuth = async (
   try {
     const bearerToken = req.header('Authorization')?.split(' ')[1];
 
-      if (!bearerToken)
-        {throw {
-          code: HttpStatus.BAD_REQUEST,
-          message: 'Authorization token is required'
-        };}
-    try{
-      req.body.email=await jwt.verify(bearerToken,process.env.FORGOTPASSWORD_SECRET_KEY);
-      next()
-    }catch(error){
-      req.body.email=await jwt.verify(bearerToken,process.env.SECRET_KEY);
-      next();
-    }
-    
-  } catch (error) {
-    res.json({Error : `${error}`})
-  }
+      if(!bearerToken)
+        {throw {code: HttpStatus.BAD_REQUEST,  message: 'Authorization token is required'};}
+      try{
+        req.body.fEmail=await jwt.verify(bearerToken, process.env.FORGOTPASSWORD_SECRET_KEY); }
+      catch(error){
+        req.body.email=await jwt.verify(bearerToken, process.env.SECRET_KEY); }
+      next(); } 
+    catch (error) {
+    res.json({Error : `${error}`})}
 };

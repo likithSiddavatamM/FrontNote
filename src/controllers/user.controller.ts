@@ -18,14 +18,12 @@ class UserController {
         {res.status(HttpStatus.CREATED).json({
           code: HttpStatus.CREATED,
           message: `User with name ${data.firstName} ${data.lastName} is been created successfully, you can login using ${data.email}`
-        });}
-        
-      } catch (error) {
+        });} }
+      catch (error) {
         {res.status(HttpStatus.BAD_REQUEST).json({
           code: HttpStatus.BAD_REQUEST,
-          message: `${error}`
-        });}
-      }
+          message: `${error.message}`
+        });} }
     };
 
     //LogIn user
@@ -40,42 +38,36 @@ class UserController {
         {res.status(200).json({
           code: HttpStatus.CREATED,
           message: `You are now loggedIn as ${data.firstName} ${data.lastName}`,
-          acessToken:`${data.AccessToken}`
-        });}
-      } catch (error) {
+          accessToken:`${data.AccessToken}`});} 
+        }
+      catch (error) {
         {res.status(HttpStatus.BAD_REQUEST).json({
           code: HttpStatus.BAD_REQUEST,
-          message: `${error}`
-        });}}
+          message: `${error.message}`});}
+      }
     };
 
     public forgotPassword = async(
       req: Request,
       res: Response,
-      next: NextFunction)=>
-      {
+      next: NextFunction) => {
         try{
           let data =  await this.UserService.forgotPassword(req.body.email)
           res.json({code: data.response,
-            message: `Reset link sent successfully to : ${data.envelope.to}`})
-        }
+            message: `Reset link sent successfully to : ${data.envelope.to}`}) }
         catch(error){
-            res.json({message: error.message})
-        }
+            res.json({message: error.message}) }
     }
 
     public resetPassword = async(
       req: Request,
       res: Response,
-      next: NextFunction)=>
-    {
+      next: NextFunction)=> {
       try{
         await this.UserService.resetPassword(req.body)
-        res.json({data:`Password updated successfully, you can login through your updated password` })
-      }
+        res.json({data:`Password updated successfully for ${req.body.fEmail}, you can login through your updated password` }) }
       catch(error){
-          res.json({message:error})
-      }
+          res.json({message:error.message}) }
     }
 }
 

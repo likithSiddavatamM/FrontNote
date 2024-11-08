@@ -9,6 +9,8 @@ import routes from './routes';
 import Database from './config/database';
 import ErrorHandler from './middlewares/error.middleware';
 import Logger from './config/logger';
+import swaggerUi from 'swagger-ui-express';
+import swaggerDocument from '../Swagger/openApi.json'
 
 import morgan from 'morgan';
 
@@ -50,6 +52,8 @@ class App {
 
   public initializeRoutes(): void {
     this.app.use(`/api/${this.api_version}/funddonotes`, routes());
+    this.app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+
   }
 
   public initializeErrorHandlers(): void {
