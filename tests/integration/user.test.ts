@@ -1,22 +1,19 @@
 import { expect } from 'chai';
 import request from 'supertest';
 import mongoose from 'mongoose';
-import app from '../../src/index'; // Update this path to your app's entry point
+import app from '../../src/index';
 import keepnotes from '../../src/models/note.model';
 import user from '../../src/models/user.model';
 
 const mockUser = {
-  firstName: 'John',
-  lastName: 'Doe',
-  email: 'john.doe@example.com',
+  firstName: 'liki',
+  lastName: 'siddu',
+  email: 'liki.siddu@gmail.com',
   password: 'Blackspy@$1864$'
 };
 let token; 
 before(async () => {
-  // Connect to the test database before running tests
-  // await mongoose.connection.close();
-  
-  await mongoose.connect(process.env.DATABASE_TEST, { useNewUrlParser: true, useUnifiedTopology: true });
+await mongoose.connect(process.env.DATABASE_TEST, { useNewUrlParser: true, useUnifiedTopology: true });
 });
 after(async () => {
   await keepnotes.deleteMany({});
@@ -27,13 +24,13 @@ describe('User Registration API', () => {
   describe('POST /api/v1/funddonotes/user/register', () => {
           it('should accept a new user', (done) => {
             request(app.getApp())
-                .post('/api/v1/funddonotes/user/register') // Ensure the endpoint is correct
+                .post('/api/v1/funddonotes/user/register')
                 .send(mockUser)
                 .end((err, res) => {
-                    // if (err) return done(err); // Handle error if it occurs
+                    if (err) return done(err);
                     expect(res.status).to.equal(201); // Check status code
                     expect(res.body.message).to.be.equal(`User with name ${mockUser.firstName} ${mockUser.lastName} is been created successfully, you can login using ${mockUser.email}`); // Check message
-                    done(); // Call done after assertions
+                    done();
                 });
              }); 
           });
@@ -41,10 +38,10 @@ describe('User Registration API', () => {
       describe('POST /api/v1/funddonotes/user/register', () => {
       it('should reject a user who is present already', (done) => {
         request(app.getApp())
-            .post('/api/v1/funddonotes/user/register') // Ensure the endpoint is correct
+            .post('/api/v1/funddonotes/user/register')
             .send(mockUser)
             .end((err, res) => {
-                // if (err) return done(err); // Handle error if it occurs
+                if (err) return done(err); // Handle error if it occurs
                 expect(res.status).to.equal(400); // Check status code
                 expect(res.body.message).to.be.equal(`User with name is already registered through the email id`); // Check message
                 done(); // Call done after assertions
@@ -60,17 +57,16 @@ let user ={
     password: 'Blackspy@$1864$'
   };
 
-  // describe('POST /api/v1/funddonotes/user/login', () => {
     it('should login a new user', (done) => {
       request(app.getApp())
-          .post('/api/v1/funddonotes/user/login') // Ensure the endpoint is correct
+          .post('/api/v1/funddonotes/user/login')
           .send(user)
           .end((err, res) => {
-              // if (err) return done(err); // Hand01le error if it occurs
+              if (err) return done(err);
               expect(res.status).to.equal(200); // Check status code
               expect(res.body.message).to.be.equal(`You are now loggedIn as ${mockUser.firstName} ${mockUser.lastName}`); // Check message
               token = res.body.accessToken
-              done(); // Call done after assertions
+              done();
           });
   }); 
   it('should not login and tell to register', (done) => {
@@ -79,10 +75,10 @@ let user ={
         password: 'Blackspy@$1864$'
       };
     request(app.getApp())
-    .post('/api/v1/funddonotes/user/login') // Ensure the endpoint is correct
+    .post('/api/v1/funddonotes/user/login')
     .send(user1)
     .end((err, res) => {
-      // if (err) return done(err); // Hand01le error if it occurs
+      if (err) return done(err); // Hand01le error if it occurs
       expect(res.status).to.equal(400); // Check status code
       expect(res.body.message).to.be.equal(`User with email ${user1.email} doesn't exist, please go with the registration`); // Check message
       done(); // Call done after assertions
@@ -99,7 +95,7 @@ let user ={
     .post('/api/v1/funddonotes/user/login') // Ensure the endpoint is correct
     .send(user2)
     .end((err, res) => {
-      // if (err) return done(err); // Hand01le error if it occurs
+      if (err) return done(err);
       expect(res.status).to.equal(400); // Check status code
       expect(res.body.message).to.be.equal(`You have entered a incorrect password, try again`); // Check message
       done(); // Call done after assertions

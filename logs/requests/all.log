@@ -6868,3 +6868,576 @@ info: ::1 - - [07/Nov/2024:07:16:13 +0000] "GET /api-docs/swagger-ui-bundle.js H
 
 info: ::1 - - [07/Nov/2024:07:16:14 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
 
+info: ::1 - - [08/Nov/2024:08:18:47 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+error: uncaughtException: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+    at Function.from (node:buffer:319:9)
+    at E:\Project1\FundDoNotes\src\utils\RabbitMQ.ts:14:62
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\utils\RabbitMQ.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Nov 08 2024 13:48:47 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":12906.515},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18345775,"external":20724131,"heapTotal":30367744,"heapUsed":28921312,"rss":68005888},"pid":3376,"uid":null,"version":"v20.17.0"},"stack":"TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model\n    at Function.from (node:buffer:319:9)\n    at E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts:14:62\n    at Generator.next (<anonymous>)\n    at fulfilled (E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":9,"file":"node:buffer","function":"Function.from","line":319,"method":"from","native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts","function":null,"line":14,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":58,"file":"E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts","function":"fulfilled","line":5,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [08/Nov/2024:08:20:14 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:27:48 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:28:52 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:29:04 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:29:09 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:29:16 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:29:24 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:29:33 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:30:25 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:30:36 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:31:12 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+error: uncaughtException: "[object Object]" is not valid JSON
+SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at Channel.consume.noAck (E:\Project1\FundDoNotes\src\utils\RabbitMQ.ts:29:79)
+    at Channel.dispatchMessage (E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:485:14)
+    at Channel.handleDelivery (E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:494:17)
+    at Channel.emit (node:events:519:28)
+    at E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:391:10
+    at Channel.content [as handleMessage] (E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:444:9)
+    at Channel.acceptMessageFrame (E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:228:33)
+    at Channel.accept (E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:298:19)
+    at Connection.mainAccept [as accept] (E:\Project1\FundDoNotes\node_modules\amqplib\lib\connection.js:582:33)
+    at Socket.go (E:\Project1\FundDoNotes\node_modules\amqplib\lib\connection.js:434:16)
+    at Socket.emit (node:events:519:28)
+    at emitReadable_ (node:internal/streams/readable:832:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Fri Nov 08 2024 14:01:12 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":13651.156},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18361754,"external":20742850,"heapTotal":75194368,"heapUsed":44044672,"rss":111366144},"pid":11084,"uid":null,"version":"v20.17.0"},"stack":"SyntaxError: \"[object Object]\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at Channel.consume.noAck (E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts:29:79)\n    at Channel.dispatchMessage (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:485:14)\n    at Channel.handleDelivery (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:494:17)\n    at Channel.emit (node:events:519:28)\n    at E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:391:10\n    at Channel.content [as handleMessage] (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:444:9)\n    at Channel.acceptMessageFrame (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:228:33)\n    at Channel.accept (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:298:19)\n    at Connection.mainAccept [as accept] (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\connection.js:582:33)\n    at Socket.go (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\connection.js:434:16)\n    at Socket.emit (node:events:519:28)\n    at emitReadable_ (node:internal/streams/readable:832:12)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":79,"file":"E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts","function":"Channel.consume.noAck","line":29,"method":"noAck","native":false},{"column":14,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.dispatchMessage","line":485,"method":"dispatchMessage","native":false},{"column":17,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.handleDelivery","line":494,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":519,"method":"emit","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":391,"method":null,"native":false},{"column":9,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":444,"method":"content [as handleMessage]","native":false},{"column":33,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.acceptMessageFrame","line":228,"method":"acceptMessageFrame","native":false},{"column":19,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.accept","line":298,"method":"accept","native":false},{"column":33,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":582,"method":"mainAccept [as accept]","native":false},{"column":16,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":434,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":832,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::1 - - [08/Nov/2024:08:32:14 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:32:21 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:32:58 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:33:01 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:33:03 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:33:04 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:33:53 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:33:55 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:33:57 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:33:59 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:34:01 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:34:45 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:08:49:36 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:02:45 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:03:00 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:04:44 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:06:40 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:06:43 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:06:45 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:06:46 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:06:48 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:06:49 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:06:50 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:08:20 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:08:22 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:11:32 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:11:34 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:14:00 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 129 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:16:47 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:18:22 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:19:48 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:21:20 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [08/Nov/2024:09:44:56 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:09:34:58 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:09:46:37 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:09:55:48 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:09:56:50 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:09:57:19 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:11:27 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:16:53 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:18:52 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 44 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:19:27 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:20:23 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:20:59 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:21:17 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:21:39 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:21:48 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:21:56 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:22:12 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:22:43 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:23:55 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:24:21 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:24:53 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:31:00 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:34:25 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 177 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:35:26 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 500 90 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:35:36 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 111 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:35:56 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:36:09 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 112 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:37:07 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 113 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:37:46 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 114 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:38:18 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 115 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:39:32 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 116 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:41:03 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 117 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:41:29 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:41:52 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:42:01 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 119 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:42:49 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:42:52 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:42:53 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:42:55 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:42:57 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:10:42:58 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 121 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:11:08:37 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:11:08:41 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:11:08:43 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:11:08:45 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 122 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:11:08:46 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "PostmanRuntime/7.42.0"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:16:32 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:31:43)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:46:32 GMT+0530 (India Standard Time)","error":{"actual":"400","expected":"201","message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:31:43)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46427.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18363667,"external":21385729,"heapTotal":134389760,"heapUsed":103014152,"rss":174350336},"pid":13068,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:31:43)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":43,"file":"tests\\integration\\user.test.ts","function":null,"line":31,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:16:32 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:16:32 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 166 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:16:32 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:16:32 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:35 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:31:43)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:35 GMT+0530 (India Standard Time)","error":{"actual":"400","expected":"201","message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:31:43)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46491.187},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18363601,"external":21385663,"heapTotal":134651904,"heapUsed":103386560,"rss":174460928},"pid":18244,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:31:43)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":43,"file":"tests\\integration\\user.test.ts","function":null,"line":31,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:35 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 121 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 201 to equal 400
+AssertionError: expected 201 to equal 400
+    at Test.<anonymous> (tests\integration\user.test.ts:45:39)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:35 GMT+0530 (India Standard Time)","error":{"actual":"201","expected":"400","message":"expected 201 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 400\n    at Test.<anonymous> (tests\\integration\\user.test.ts:45:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46491.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18373610,"external":21395672,"heapTotal":135176192,"heapUsed":104501544,"rss":174837760},"pid":18244,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 201 to equal 400\n    at Test.<anonymous> (tests\\integration\\user.test.ts:45:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":39,"file":"tests\\integration\\user.test.ts","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:35 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (tests\integration\user.test.ts:66:37)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:35 GMT+0530 (India Standard Time)","error":{"actual":"400","expected":"200","message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (tests\\integration\\user.test.ts:66:37)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46491.359},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18384007,"external":21406069,"heapTotal":135176192,"heapUsed":105429104,"rss":175050752},"pid":18244,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (tests\\integration\\user.test.ts:66:37)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"tests\\integration\\user.test.ts","function":null,"line":66,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:35 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:36 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:123:34)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:36 GMT+0530 (India Standard Time)","error":{"actual":"200","expected":"201","message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46491.468},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18388557,"external":21410619,"heapTotal":135700480,"heapUsed":107503368,"rss":175620096},"pid":18244,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":34,"file":"tests\\integration\\user.test.ts","function":null,"line":123,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:123:34)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:36 GMT+0530 (India Standard Time)","error":{"actual":"200","expected":"201","message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46491.468},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18396749,"external":21418811,"heapTotal":135700480,"heapUsed":107551528,"rss":175620096},"pid":18244,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":34,"file":"tests\\integration\\user.test.ts","function":null,"line":123,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:36 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:123:34)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:36 GMT+0530 (India Standard Time)","error":{"actual":"200","expected":"201","message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46491.468},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18396749,"external":21418811,"heapTotal":135700480,"heapUsed":107599192,"rss":175620096},"pid":18244,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":34,"file":"tests\\integration\\user.test.ts","function":null,"line":123,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:47 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:31:43)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:47 GMT+0530 (India Standard Time)","error":{"actual":"400","expected":"201","message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:31:43)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46502.578},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18363601,"external":21385663,"heapTotal":134389760,"heapUsed":103211312,"rss":174276608},"pid":15852,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:31:43)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":43,"file":"tests\\integration\\user.test.ts","function":null,"line":31,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:47 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 121 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 201 to equal 400
+AssertionError: expected 201 to equal 400
+    at Test.<anonymous> (tests\integration\user.test.ts:45:39)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:47 GMT+0530 (India Standard Time)","error":{"actual":"201","expected":"400","message":"expected 201 to equal 400","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 201 to equal 400\n    at Test.<anonymous> (tests\\integration\\user.test.ts:45:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46502.796},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18373610,"external":21395672,"heapTotal":134651904,"heapUsed":104288976,"rss":174641152},"pid":15852,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 201 to equal 400\n    at Test.<anonymous> (tests\\integration\\user.test.ts:45:39)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":39,"file":"tests\\integration\\user.test.ts","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:47 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (tests\integration\user.test.ts:66:37)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:47 GMT+0530 (India Standard Time)","error":{"actual":"400","expected":"200","message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (tests\\integration\\user.test.ts:66:37)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46502.875},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18384127,"external":21406189,"heapTotal":134914048,"heapUsed":105259984,"rss":174952448},"pid":15852,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (tests\\integration\\user.test.ts:66:37)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"tests\\integration\\user.test.ts","function":null,"line":66,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:47 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:47 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:123:34)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:47 GMT+0530 (India Standard Time)","error":{"actual":"200","expected":"201","message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46503.125},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18388557,"external":21410619,"heapTotal":135438336,"heapUsed":107322064,"rss":175538176},"pid":15852,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":34,"file":"tests\\integration\\user.test.ts","function":null,"line":123,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:123:34)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:47 GMT+0530 (India Standard Time)","error":{"actual":"200","expected":"201","message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46503.14},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18396749,"external":21418811,"heapTotal":135438336,"heapUsed":107370256,"rss":175538176},"pid":15852,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":34,"file":"tests\\integration\\user.test.ts","function":null,"line":123,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:17:47 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:123:34)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:47 GMT+0530 (India Standard Time)","error":{"actual":"200","expected":"201","message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46503.14},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18396749,"external":21418811,"heapTotal":135438336,"heapUsed":107417920,"rss":175538176},"pid":15852,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":34,"file":"tests\\integration\\user.test.ts","function":null,"line":123,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:18:49 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 121 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:18:49 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (tests\integration\user.test.ts:66:37)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:48:49 GMT+0530 (India Standard Time)","error":{"actual":"400","expected":"200","message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (tests\\integration\\user.test.ts:66:37)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46564.968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18376485,"external":21398547,"heapTotal":135176192,"heapUsed":105066920,"rss":175636480},"pid":11760,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (tests\\integration\\user.test.ts:66:37)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"tests\\integration\\user.test.ts","function":null,"line":66,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (tests\integration\user.test.ts:66:37)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:48:49 GMT+0530 (India Standard Time)","error":{"actual":"400","expected":"200","message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (tests\\integration\\user.test.ts:66:37)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46564.968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18376485,"external":21398547,"heapTotal":135176192,"heapUsed":105117312,"rss":175652864},"pid":11760,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (tests\\integration\\user.test.ts:66:37)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"tests\\integration\\user.test.ts","function":null,"line":66,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:18:49 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (tests\integration\user.test.ts:66:37)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:48:49 GMT+0530 (India Standard Time)","error":{"actual":"400","expected":"200","message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (tests\\integration\\user.test.ts:66:37)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46564.984},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18384677,"external":21406739,"heapTotal":135176192,"heapUsed":105166336,"rss":175652864},"pid":11760,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (tests\\integration\\user.test.ts:66:37)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"tests\\integration\\user.test.ts","function":null,"line":66,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:18:49 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:18:49 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:123:34)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:48:49 GMT+0530 (India Standard Time)","error":{"actual":"200","expected":"201","message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46565.218},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18388629,"external":21410691,"heapTotal":135700480,"heapUsed":107163144,"rss":176033792},"pid":11760,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":34,"file":"tests\\integration\\user.test.ts","function":null,"line":123,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:123:34)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:48:49 GMT+0530 (India Standard Time)","error":{"actual":"200","expected":"201","message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46565.218},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18396821,"external":21418883,"heapTotal":135700480,"heapUsed":107211776,"rss":176050176},"pid":11760,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":34,"file":"tests\\integration\\user.test.ts","function":null,"line":123,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [09/Nov/2024:17:18:49 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (tests\integration\user.test.ts:123:34)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:48:49 GMT+0530 (India Standard Time)","error":{"actual":"200","expected":"201","message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46565.234},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18396821,"external":21418883,"heapTotal":135700480,"heapUsed":107260024,"rss":176054272},"pid":11760,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (tests\\integration\\user.test.ts:123:34)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":34,"file":"tests\\integration\\user.test.ts","function":null,"line":123,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::1 - - [09/Nov/2024:17:23:29 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:23:33 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 121 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:24:14 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 168 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:24:31 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 400 39 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:24:41 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 153 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:25:12 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:25:15 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:25:16 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:25:17 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 126 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:25:18 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:25:33 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 175 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:25:45 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 400 39 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:25:58 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:28:01 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 500 60 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:28:10 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 127 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:28:11 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:28:26 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 36 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:28:36 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 176 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:28:49 +0000] "POST /api/v1/funddonotes/user/forgotpassword HTTP/1.1" 200 157 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:29:27 +0000] "POST /api/v1/funddonotes/user/resetpassword HTTP/1.1" 200 128 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:29:41 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 33 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:29:47 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 176 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:30:36 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 400 37 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:30:54 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 400 37 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:32:50 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 400 37 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:35:55 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 400 37 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:35:57 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 400 37 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:36:42 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 400 37 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:36:44 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 400 37 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:38:19 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 400 37 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:39:07 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 400 71 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:40:10 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 176 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:40:15 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 176 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:40:55 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 201 176 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:43:05 +0000] "GET /api/v1/funddonotes/usernotes/readnotes HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:43:23 +0000] "GET /api/v1/funddonotes/usernotes/readnotes HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:43:31 +0000] "GET /api/v1/funddonotes/usernotes/readnotes HTTP/1.1" 200 158 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:43:54 +0000] "GET /api/v1/funddonotes/usernotes/readnote/672c5bedb7794e25786b2b6b HTTP/1.1" 400 24 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:44:12 +0000] "GET /api/v1/funddonotes/usernotes/readnote/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 209 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:44:39 +0000] "GET /api/v1/funddonotes/usernotes/update/672f9ea6a9d14a3f2866149a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:44:47 +0000] "PUT /api/v1/funddonotes/usernotes/update/672f9ea6a9d14a3f2866149a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:44:56 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 49 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:44:59 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 49 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:45:01 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 49 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:45:02 +0000] "PUT /api/v1/funddonotes/usernotes/updatenote/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 49 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:45:25 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 70 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:45:27 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:45:31 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 70 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:45:32 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:45:40 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 70 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:45:50 +0000] "DELETE /api/v1/funddonotes/usernotes/trashbin HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:46:13 +0000] "DELETE /api/v1/funddonotes/usernotes/trashbin HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:46:24 +0000] "GET /api/v1/funddonotes/usernotes/trashbin HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:46:34 +0000] "DELETE /api/v1/funddonotes/usernotes/trashbin/672f9ea6a9d14a3f2866149a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:46:41 +0000] "DELETE /api/v1/funddonotes/usernotes/trashb/672f9ea6a9d14a3f2866149a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:46:44 +0000] "DELETE /api/v1/funddonotes/usernotes/trash/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 85 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:46:53 +0000] "GET /api/v1/funddonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:48:17 +0000] "POST /api/v1/funddonotes/archive/trashbin HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:48:50 +0000] "POST /api/v1/funddonotes/usernotes/archive/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 32 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:49:06 +0000] "POST /api/v1/funddonotes/usernotes/archives HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:49:12 +0000] "GET /api/v1/funddonotes/usernotes/archives HTTP/1.1" 200 178 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:49:21 +0000] "POST /api/v1/funddonotes/usernotes/archive/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 46 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:49:28 +0000] "GET /api/v1/funddonotes/usernotes/archives HTTP/1.1" 200 22 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:49:57 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermantely/672f9ea6a9d14a3f2866149a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:50:09 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 31 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:50:33 +0000] "DELETE /api/v1/funddonotes/usernotes/deletepermanetly/672f9ea6a9d14a3f2866149a HTTP/1.1" 200 31 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [09/Nov/2024:17:57:00 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 126 "-" "PostmanRuntime/7.42.0"
+

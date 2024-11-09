@@ -19,7 +19,7 @@ class NoteService {
     return data[0]; }
   
   //find multiple notes
-  public findNotes = async(email:any): Promise<any> => {
+  public findNotes = async(email:string): Promise<any> => {
     let data = await keepnotes.find({$and : [{email:email},{isArchive:false},{isTrash:false}]},{title: true,description:true,  createdBy:true,email:true,_id:false});
     if(data.length==0) throw new Error("No such notes available");
     await redisClient.setEx(email ,1111, JSON.stringify(data)); 
@@ -47,7 +47,7 @@ class NoteService {
     return await keepnotes.deleteOne({$and:[{email:req.body.email},{_id:req.params.id},{isTrash:true}]})}
 
   //trashed notes
-  public trashBin = async(email:any): Promise<any> =>
+  public trashBin = async(email:string): Promise<any> =>
     await keepnotes.find({$and :[{email:email},{isTrash:true}] }, {title: true, description:true,  createdBy:true,email:true,_id:false})
   
   //archive note
@@ -59,7 +59,7 @@ class NoteService {
     return !myData.isArchive==true?"Archived":"Restored from Archives" }
 
   //archived note
-  public archives = async(email:any): Promise<any> => 
+  public archives = async(email:string): Promise<any> => 
     await keepnotes.find({$and :[{email:email},{isArchive:true},{isTrash:false}] }, {title: true, description:true,  createdBy:true,email:true,_id:false})
 
 } 

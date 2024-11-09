@@ -11877,3 +11877,313 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-07T0
 info: Connected to the database. {"timestamp":"2024-11-07T07:47:43.988Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-07T07:47:59.203Z"}
 info: Connected to the database. {"timestamp":"2024-11-07T07:47:59.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:16:21.227Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:16:21.284Z"}
+error: uncaughtException: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model
+    at Function.from (node:buffer:319:9)
+    at E:\Project1\FundDoNotes\src\utils\RabbitMQ.ts:14:62
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\Project1\FundDoNotes\src\utils\RabbitMQ.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Nov 08 2024 13:48:47 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":12906.515},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18345751,"external":20724067,"heapTotal":30367744,"heapUsed":28655616,"rss":67964928},"pid":3376,"uid":null,"version":"v20.17.0"},"stack":"TypeError: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received an instance of model\n    at Function.from (node:buffer:319:9)\n    at E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts:14:62\n    at Generator.next (<anonymous>)\n    at fulfilled (E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-08T08:18:47.691Z","trace":[{"column":9,"file":"node:buffer","function":"Function.from","line":319,"method":"from","native":false},{"column":62,"file":"E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts","function":null,"line":14,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":58,"file":"E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts","function":"fulfilled","line":5,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:19:39.522Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:19:39.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:22:02.941Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:22:02.988Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:22:26.813Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:22:26.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:22:29.276Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:22:29.316Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:22:36.630Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:22:36.657Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:22:42.591Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:22:42.617Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:22:46.224Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:22:46.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:22:58.764Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:22:58.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:23:06.395Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:23:06.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:23:14.987Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:23:15.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:23:18.536Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:23:18.559Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:23:52.295Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:23:52.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:23:58.368Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:23:58.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:24:08.531Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:24:08.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:24:12.214Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:24:12.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:24:20.091Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:24:20.126Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:24:25.126Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:24:25.154Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:24:43.553Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:24:43.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:25:10.100Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:25:10.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:25:18.732Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:25:18.756Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:25:23.380Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:25:23.412Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:25:27.066Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:25:27.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:25:33.629Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:25:33.689Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:26:12.823Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:26:12.846Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:26:15.213Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:26:15.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:26:22.074Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:26:22.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:26:25.596Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:26:25.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:26:31.928Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:26:31.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:26:35.407Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:26:35.460Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:26:58.788Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:26:58.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:27:03.290Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:27:03.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:27:07.473Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:27:07.501Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:27:15.440Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:27:15.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:27:23.102Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:27:23.169Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:28:14.102Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:28:14.129Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:28:17.511Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:28:17.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:28:20.869Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:28:20.919Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:28:27.642Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:28:27.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:28:36.040Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:28:36.065Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:28:41.158Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:28:41.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:30:06.312Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:30:06.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:30:51.359Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:30:51.382Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:31:05.692Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:31:05.800Z"}
+error: uncaughtException: "[object Object]" is not valid JSON
+SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at Channel.consume.noAck (E:\Project1\FundDoNotes\src\utils\RabbitMQ.ts:29:79)
+    at Channel.dispatchMessage (E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:485:14)
+    at Channel.handleDelivery (E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:494:17)
+    at Channel.emit (node:events:519:28)
+    at E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:391:10
+    at Channel.content [as handleMessage] (E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:444:9)
+    at Channel.acceptMessageFrame (E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:228:33)
+    at Channel.accept (E:\Project1\FundDoNotes\node_modules\amqplib\lib\channel.js:298:19)
+    at Connection.mainAccept [as accept] (E:\Project1\FundDoNotes\node_modules\amqplib\lib\connection.js:582:33)
+    at Socket.go (E:\Project1\FundDoNotes\node_modules\amqplib\lib\connection.js:434:16)
+    at Socket.emit (node:events:519:28)
+    at emitReadable_ (node:internal/streams/readable:832:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Fri Nov 08 2024 14:01:12 GMT+0530 (India Standard Time)","error":{"code":541},"exception":true,"os":{"loadavg":[0,0,0],"uptime":13651.14},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18351532,"external":20732588,"heapTotal":75194368,"heapUsed":43937440,"rss":111345664},"pid":11084,"uid":null,"version":"v20.17.0"},"stack":"SyntaxError: \"[object Object]\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at Channel.consume.noAck (E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts:29:79)\n    at Channel.dispatchMessage (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:485:14)\n    at Channel.handleDelivery (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:494:17)\n    at Channel.emit (node:events:519:28)\n    at E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:391:10\n    at Channel.content [as handleMessage] (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:444:9)\n    at Channel.acceptMessageFrame (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:228:33)\n    at Channel.accept (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js:298:19)\n    at Connection.mainAccept [as accept] (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\connection.js:582:33)\n    at Socket.go (E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\connection.js:434:16)\n    at Socket.emit (node:events:519:28)\n    at emitReadable_ (node:internal/streams/readable:832:12)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2024-11-08T08:31:12.324Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":79,"file":"E:\\Project1\\FundDoNotes\\src\\utils\\RabbitMQ.ts","function":"Channel.consume.noAck","line":29,"method":"noAck","native":false},{"column":14,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.dispatchMessage","line":485,"method":"dispatchMessage","native":false},{"column":17,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.handleDelivery","line":494,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":519,"method":"emit","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":391,"method":null,"native":false},{"column":9,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content [as handleMessage]","line":444,"method":"content [as handleMessage]","native":false},{"column":33,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.acceptMessageFrame","line":228,"method":"acceptMessageFrame","native":false},{"column":19,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.accept","line":298,"method":"accept","native":false},{"column":33,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":582,"method":"mainAccept [as accept]","native":false},{"column":16,"file":"E:\\Project1\\FundDoNotes\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":434,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":832,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:31:34.293Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:31:34.323Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:32:32.709Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:32:32.731Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:32:36.320Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:32:36.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:33:26.445Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:33:26.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:33:44.176Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:33:44.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:34:22.378Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:34:22.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:34:33.143Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:34:33.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:36:07.745Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:36:07.781Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:36:25.054Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:36:25.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T08:49:30.684Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T08:49:30.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T09:02:40.503Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T09:02:40.563Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T09:04:38.083Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T09:04:38.141Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T09:06:32.427Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T09:06:32.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T09:08:20.179Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T09:08:20.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T09:11:30.841Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T09:11:30.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T09:13:50.019Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T09:13:50.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T09:16:47.683Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T09:16:47.765Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T09:19:44.770Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T09:19:44.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T09:21:18.095Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T09:21:18.152Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T09:44:25.814Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T09:44:25.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-08T09:44:28.938Z"}
+info: Connected to the database. {"timestamp":"2024-11-08T09:44:29.021Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T09:34:55.065Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T09:34:55.100Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T10:18:23.400Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T10:18:23.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T10:18:32.954Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T10:18:33.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T10:19:23.039Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T10:19:23.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T10:34:56.654Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T10:34:56.703Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" length must be at least 2 characters long 
+    url - /api/v1/funddonotes/user/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-09T10:35:26.655Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T10:36:59.853Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T10:36:59.907Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T10:39:25.342Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T10:39:25.398Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T11:07:23.434Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T11:07:23.464Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T11:07:26.165Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T11:07:26.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T11:07:35.363Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T11:07:35.417Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T11:07:50.139Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T11:07:50.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T11:07:53.233Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T11:07:53.259Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T11:08:04.359Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T11:08:04.428Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T11:08:09.133Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T11:08:09.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T11:08:13.436Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T11:08:13.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T11:08:21.470Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T11:08:21.518Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T11:43:30.675Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T11:43:30.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T11:43:42.080Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T11:43:42.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:16:32.041Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:16:32.095Z"}
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (E:\Project1\FundDoNotes\tests\integration\user.test.ts:31:43)
+    at Test.assert (E:\Project1\FundDoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\Project1\FundDoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:46:32 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts:31:43)\n    at Test.assert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46427.625},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18355451,"external":21377473,"heapTotal":134389760,"heapUsed":102934512,"rss":174268416},"pid":13068,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts:31:43)\n    at Test.assert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2024-11-09T17:16:32.240Z","trace":[{"column":43,"file":"E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts","function":null,"line":31,"method":null,"native":false},{"column":6,"file":"E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:17:35.471Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:17:35.526Z"}
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (E:\Project1\FundDoNotes\tests\integration\user.test.ts:31:43)
+    at Test.assert (E:\Project1\FundDoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\Project1\FundDoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:35 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts:31:43)\n    at Test.assert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46491.171},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18355385,"external":21377407,"heapTotal":134389760,"heapUsed":103049152,"rss":174370816},"pid":18244,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts:31:43)\n    at Test.assert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2024-11-09T17:17:35.785Z","trace":[{"column":43,"file":"E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts","function":null,"line":31,"method":null,"native":false},{"column":6,"file":"E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:17:46.854Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:17:46.906Z"}
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (E:\Project1\FundDoNotes\tests\integration\user.test.ts:31:43)
+    at Test.assert (E:\Project1\FundDoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\Project1\FundDoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:47:47 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts:31:43)\n    at Test.assert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46502.562},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18355385,"external":21377407,"heapTotal":134127616,"heapUsed":102873096,"rss":174186496},"pid":15852,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts:31:43)\n    at Test.assert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2024-11-09T17:17:47.171Z","trace":[{"column":43,"file":"E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts","function":null,"line":31,"method":null,"native":false},{"column":6,"file":"E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:18:49.150Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:18:49.201Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (E:\Project1\FundDoNotes\tests\integration\user.test.ts:66:37)
+    at Test.assert (E:\Project1\FundDoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (E:\Project1\FundDoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:519:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2340:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Nov 09 2024 22:48:49 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts:66:37)\n    at Test.assert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":46564.953},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\Project1\\FundDoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=5000","tests/**/*.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18368269,"external":21390291,"heapTotal":135176192,"heapUsed":104987712,"rss":175562752},"pid":11760,"uid":null,"version":"v20.17.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts:66:37)\n    at Test.assert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:633:28)\n    at Server.emit (node:events:519:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2340:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2024-11-09T17:18:49.563Z","trace":[{"column":37,"file":"E:\\Project1\\FundDoNotes\\tests\\integration\\user.test.ts","function":null,"line":66,"method":null,"native":false},{"column":6,"file":"E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":633,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2340,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:23:27.255Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:23:27.310Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/funddonotes/user/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-09T17:28:01.273Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected ',' or '}' after property value in JSON at position 70
+    at JSON.parse (<anonymous>)
+    at parse (E:\Project1\FundDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\Project1\FundDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/funddonotes/user/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-09T17:28:31.716Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:34:06.832Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:34:06.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:34:37.869Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:34:37.931Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:34:53.206Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:34:53.280Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:34:56.869Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:34:56.924Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:35:12.817Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:35:12.873Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:35:16.523Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:35:16.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:35:24.956Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:35:25.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:35:52.442Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:35:52.494Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:36:24.513Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:36:24.579Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:36:31.292Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:36:31.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:36:39.816Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:36:39.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:38:31.442Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:38:31.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:38:45.785Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:38:45.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:38:48.404Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:38:48.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:39:03.055Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:39:03.084Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:40:49.467Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:40:49.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:41:48.110Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:41:48.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:42:35.999Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:42:36.075Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:46:07.143Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:46:07.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-09T17:56:28.702Z"}
+info: Connected to the database. {"timestamp":"2024-11-09T17:56:28.768Z"}

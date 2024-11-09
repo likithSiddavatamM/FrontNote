@@ -72,7 +72,7 @@ class NoteRoutes {
 
     //route to view trashBin
     this.router.get(
-      '/trashBin',
+      '/trashbin',
       userAuth,
       this.NoteController.trashBin
     );

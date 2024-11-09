@@ -11,11 +11,7 @@ import { Request, Response, NextFunction } from 'express';
  * @param {Object} res
  * @param {Function} next
  */
-export const userAuth = async (
-  req: Request,
-  res: Response,
-  next: NextFunction
-): Promise<void> => {
+export const userAuth = async (req: Request,res: Response, next: NextFunction): Promise<any> => {
   try {
     const bearerToken = req.header('Authorization')?.split(' ')[1];
 
@@ -26,6 +22,6 @@ export const userAuth = async (
       catch(error){
         req.body.email=await jwt.verify(bearerToken, process.env.SECRET_KEY); }
       next(); } 
-    catch (error) {
+  catch (error) {
     res.json({Error : `${error}`})}
 };
