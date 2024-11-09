@@ -10,9 +10,8 @@ export const cache = async(
     next: NextFunction
     )=>{
         let cachedData = await redisClient.get(req.params.id ? `${req.body.email}:${req.params.id}` : req.body.email)
-        if(cachedData){
-            console.log("cache");
-            res.json(JSON.parse(cachedData));}
+        if(cachedData)
+            res.json(JSON.parse(cachedData));
         else
             next()
     }
