@@ -29,14 +29,9 @@ const userCreation = new Schema(
     password: {
       type: String,
       required: true,
-      minlength: 10, // Minimum of 10 characters
-      validate: {
-        validator: function (v) {
-          return /^(?=.*[@$!%*?&.])[A-Za-z\d@$!%*?&.]{10,}$/.test(v); // Added '.' to allowed special characters
-        },
-        message: props => `Password must be at least 10 characters long and contain at least one special character!`
-      }
+      minlength: 10 // Minimum of 10 characters, no other rules
     }
+    
   },
 
   {

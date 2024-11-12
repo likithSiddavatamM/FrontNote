@@ -21,8 +21,9 @@ class UserValidator {
       password: Joi.string()
         .min(10) // Minimum of 10 characters
         .required()
-        .pattern(/^(?=.*[@$!%*?&.])[A-Za-z\d@$!%*?&.]{10,}$/) // Password with at least one special character
-        .message('Password must be at least 10 characters long and contain at least one special character!')
+        // .message('Password must be at least 10 characters long!')
+        .messages({ 'string.min': 'Password must be at least 10 characters long!' })  // Custom error message for min length violation
+
     });
     const { error } = schema.validate(req.body);
     if (error) {
@@ -42,9 +43,11 @@ class UserValidator {
       password: Joi.string()
         .min(10) // Minimum of 10 characters
         .required()
-        .pattern(/^(?=.*[@$!%*?&.])[A-Za-z\d@$!%*?&.]{10,}$/) // Password with at least one special character
-        .message('Password must be at least 10 characters long and contain at least one special character!')
-    });
+        // .pattern(/^(?=.*[@$!%*?&.])[A-Za-z\d@$!%*?&.]{10,}$/) // Password with at least one special character
+        // .message('Password must be at least 10 characters long and contain at least one special character!')
+        .messages({ 'string.min': 'Password must be at least 10 characters long!' })  // Custom error message for min length violation
+
+      });
     const { error } = schema.validate(req.body);
     if (error) 
       res.status(400).json({Error:error.message});
@@ -99,8 +102,10 @@ class UserValidator {
       password: Joi.string()
       .min(10) 
       .required()
-      .pattern(/^(?=.*[@$!%*?&.])[A-Za-z\d@$!%*?&.]{10,}$/)
-      .message('Password must be at least 10 characters long and contain at least one special character!')
+      // .pattern(/^(?=.*[@$!%*?&.])[A-Za-z\d@$!%*?&.]{10,}$/)
+      // .message('Password must be at least 10 characters long and contain at least one special character!')
+      .messages({ 'string.min': 'Password must be at least 10 characters long!' })  // Custom error message for min length violation
+
     });
 
     const { error } = schema.validate(req.body);
