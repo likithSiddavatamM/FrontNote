@@ -1,0 +1,302 @@
+info: ::1 - - [11/Nov/2024:17:28:39 +0000] "GET /api/v1/funddonotes/usernotes/readnote/672f9ea6a9d14a3f2866149a HTTP/1.1" 400 24 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [11/Nov/2024:17:29:59 +0000] "GET /api/v1/funddonotes/user/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [11/Nov/2024:17:30:04 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 175 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [11/Nov/2024:17:30:42 +0000] "POST /api/v1/funddonotes/usernote/createnote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [11/Nov/2024:17:30:49 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 201 175 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [11/Nov/2024:17:31:09 +0000] "GET /api/v1/funddonotes/usernotes/readnote/67323f49c49d6d087490cdfc HTTP/1.1" 200 208 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [11/Nov/2024:17:31:21 +0000] "GET /api/v1/funddonotes/usernotes/readnote/68323f49c49d6d087490cdfc HTTP/1.1" 400 24 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [11/Nov/2024:17:31:30 +0000] "GET /api/v1/funddonotes/usernotes/readnote/67323f49c49d6d087490cdfc HTTP/1.1" 200 208 "-" "PostmanRuntime/7.42.0"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:40:16 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 500 126 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:40:17 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 500 126 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:40:17 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:40:17 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:40:17 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:40:17 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:41:30 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 500 126 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:41:30 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 500 126 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:41:31 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:41:31 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:41:31 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 102 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:41:31 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:42:08 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 500 126 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:42:08 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 500 126 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:42:08 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:42:08 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:42:08 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 102 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:42:08 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:45:11 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 115 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:45:11 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:45:11 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:45:11 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:45:11 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:45:11 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:50:22 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:50:22 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:50:22 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:50:23 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:50:23 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 102 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:50:23 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:51:18 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:51:18 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:51:18 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:51:18 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:51:18 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 103 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:51:18 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:54:37 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:54:37 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:54:37 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:54:37 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:54:37 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 103 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:54:37 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:57:22 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 116 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:57:22 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:57:22 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:57:22 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:57:22 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:17:57:22 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:57 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:57 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 103 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:57 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:57 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:57 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:58 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:58 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:58 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 103 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:58 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:58 +0000] "GET /api/v1/funddonotes/usernotes/readnote/undefined HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:58 +0000] "GET /api/v1/funddonotes/usernotes/readnote/invalidId HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:58 +0000] "GET /api/v1/funddonotes/usernotes/readnote/undefined HTTP/1.1" 200 27 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:02:58 +0000] "GET /api/v1/funddonotes/usernotes/readnote/609b01b8f40f4d001f7b0342 HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:26 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 164 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 201 146 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 201 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "GET /api/v1/funddonotes/usernotes/readnote/undefined HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "GET /api/v1/funddonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "GET /api/v1/funddonotes/usernotes/readnote/undefined HTTP/1.1" 200 27 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:03:27 +0000] "GET /api/v1/funddonotes/usernotes/readnote/609b01b8f40f4d001f7b0342 HTTP/1.1" 400 24 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 107 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 120 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "GET /api/v1/funddonotes/usernotes/readnote/undefined HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "GET /api/v1/funddonotes/usernotes/readnote/invalidId HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "GET /api/v1/funddonotes/usernotes/readnote/undefined HTTP/1.1" 200 27 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:04:27 +0000] "GET /api/v1/funddonotes/usernotes/readnote/609b01b8f40f4d001f7b0342 HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:58 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 120 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:58 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 200 167 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:58 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 201 148 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:58 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:58 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:58 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:58 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:58 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:58 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 201 143 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:59 +0000] "GET /api/v1/funddonotes/usernotes/readnote/undefined HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:59 +0000] "GET /api/v1/funddonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:59 +0000] "GET /api/v1/funddonotes/usernotes/readnote/undefined HTTP/1.1" 200 27 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:06:59 +0000] "GET /api/v1/funddonotes/usernotes/readnote/609b01b8f40f4d001f7b0342 HTTP/1.1" 400 24 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:12 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:12 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:12 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:12 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:12 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 126 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:12 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:12 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:12 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:12 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:12 +0000] "GET /api/v1/funddonotes/usernotes/readnote/undefined HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:13 +0000] "GET /api/v1/funddonotes/usernotes/readnote/invalidId HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:13 +0000] "GET /api/v1/funddonotes/usernotes/readnote/undefined HTTP/1.1" 200 27 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:08:13 +0000] "GET /api/v1/funddonotes/usernotes/readnote/609b01b8f40f4d001f7b0342 HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:11:11 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:11:11 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 116 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:11:11 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:11:11 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:11:11 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:11:11 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:12:40 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:12:40 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 116 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:12:40 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:12:40 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:12:40 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:12:40 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:14:56 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:14:57 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:14:57 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:14:57 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:14:57 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 103 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:14:57 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:32 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:32 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 147 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:32 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:32 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:32 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 103 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:32 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:48 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 201 116 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:48 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:48 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 108 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:48 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 109 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:48 +0000] "POST /api/v1/funddonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [11/Nov/2024:18:15:48 +0000] "POST /api/v1/funddonotes/usernotes/createnote HTTP/1.1" 200 44 "-" "node-superagent/3.8.3"
+

@@ -2,8 +2,10 @@
 import NoteService from '../services/note.service';
 import { Request, Response } from 'express';
 import HttpStatus from 'http-status-codes';
+import NoteValidator from '../validators/note.validator'; 
 
 class NoteController {
+  public a = new NoteValidator();
   public NoteService = new NoteService();
 
     //Create a note
