@@ -30,7 +30,7 @@ class NoteController {
     //Read/Fetch all notes
     public readNotes = async (req: Request,res: Response): Promise<any> => {
         try{     
-          res.status(HttpStatus.OK).json({code:HttpStatus.OK,data:await this.NoteService.findNotes(req.body.email)})} 
+          res.status(HttpStatus.OK).json({code:HttpStatus.OK,data:await this.NoteService.findNotes(req.body.createdBy)})} 
         catch (error) {
           {res.status(HttpStatus.BAD_REQUEST).json({
             code: HttpStatus.BAD_REQUEST,
@@ -74,7 +74,7 @@ class NoteController {
     //View trash
     public trashBin = async (req: Request,res: Response): Promise<any> => {
         try{     
-          res.status(HttpStatus.OK).json({code:HttpStatus.OK,data:await this.NoteService.trashBin(req.body.email)}) }
+          res.status(HttpStatus.OK).json({code:HttpStatus.OK,data:await this.NoteService.trashBin(req.body.createdBy)}) }
         catch (error) {
           {res.status(HttpStatus.BAD_REQUEST).json({
             code: HttpStatus.BAD_REQUEST,
@@ -96,7 +96,7 @@ class NoteController {
     //View all archives
     public archives = async (req: Request,res: Response): Promise<any> => {
         try{     
-          res.status(HttpStatus.OK).json({code:HttpStatus.OK,data:await this.NoteService.archives(req.body.email)}) }
+          res.status(HttpStatus.OK).json({code:HttpStatus.OK,data:await this.NoteService.archives(req.body.createdBy)}) }
         catch (error) {
           {res.status(HttpStatus.BAD_REQUEST).json({
             code: HttpStatus.BAD_REQUEST,

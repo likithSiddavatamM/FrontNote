@@ -14,22 +14,13 @@ class NoteValidator {
         next();
     };
 
-  public email = (req: Request, res: Response, next: NextFunction): void => {
-      const schema = Joi.object({
-          email: Joi.string().required().email()
-      });
-      const { error } = schema.validate(req.body);
-      if (error) 
-        res.status(400).json({Error:error.message});
-      else
-        next();
-    };
-
   public data = (req: Request, res: Response, next: NextFunction): void => {
       const schema = Joi.object({
           title:Joi.string(),
           description:Joi.string(),
-          email : Joi.string()
+          email : Joi.string(),
+          createdBy : Joi.string()
+
       });
       const { error } = schema.validate(req.body);
       if (error) 
@@ -42,7 +33,8 @@ class NoteValidator {
       const schema = Joi.object({
           title:Joi.string(),
           description:Joi.string(),
-          email : Joi.string()
+          email : Joi.string(),
+          createdBy : Joi.string()
       });
       const { error } = schema.validate(req.body);
       if (error) 

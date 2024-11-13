@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from 'http-status-codes';
 import userService from '../services/user.service';
-import { Request, Response, NextFunction } from 'express';
+import { Request, Response } from 'express';
 
 class UserController {
   public UserService = new userService();
