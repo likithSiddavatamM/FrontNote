@@ -14,13 +14,14 @@ import { Request, Response, NextFunction } from 'express';
 export const userAuth = async (req: Request,res: Response, next: NextFunction): Promise<any> => {
   try {
     const bearerToken = req.header('Authorization')?.split(' ')[1];
-
       if(!bearerToken)
         {throw {code: HttpStatus.BAD_REQUEST,  message: 'Authorization token is required'};}
       try{
         req.body.fEmail=await jwt.verify(bearerToken, process.env.FORGOTPASSWORD_SECRET_KEY); }
       catch(error){
-        req.body.email=await jwt.verify(bearerToken, process.env.SECRET_KEY); }
+         const data : any = await jwt.verify(bearerToken, process.env.SECRET_KEY);
+         [req.body.email ,req.body.createdBy] = [data.email, data._id]    
+      }
       next(); } 
   catch (error) {
     res.json({Error : `${error}`})}

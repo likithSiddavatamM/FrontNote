@@ -8,7 +8,7 @@ import { rabbitSend } from '../utils/RabbitMQ';
 class UserService {
   //create user for registration
   public newUser = async (body: IUser): Promise<any> => {
-      if((await User.find({email:body.email})).length===0){
+      if(!(await User.find({email:body.email})).length){
         body.password = await bcrypt.hash(body.password, 10);
         const data = await User.create(body);
         rabbitSend("rabbit", "Direct", data);
@@ -24,7 +24,7 @@ class UserService {
       throw new Error(`User with email ${body.email} doesn't exist, please go with the registration`);
      if(!(await bcrypt.compare(body.password, UserValue[0].password)))
       throw new Error(`You have entered a incorrect password, try again`);
-    UserValue[0].AccessToken=jwt.sign(body.email,process.env.SECRET_KEY);
+    UserValue[0].AccessToken=jwt.sign({_id: UserValue[0]._id, email:body.email},process.env.SECRET_KEY);
     return UserValue[0]
   } 
 
