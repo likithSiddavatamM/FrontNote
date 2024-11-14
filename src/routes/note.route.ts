@@ -63,7 +63,7 @@ class NoteRoutes {
     );
 
     //route to archive a note 
-    this.router.post(
+    this.router.put(
       '/archive/:id',
       userAuth,
       this.NoteValidator.id,

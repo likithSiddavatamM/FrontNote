@@ -7,11 +7,14 @@ class NoteValidator {
       const schema = Joi.object({
           id: Joi.string().required(),
       });
+      if(req.params.id.length!=24)
+        res.status(400).json({Error:"No such note"});
+      else{
       const { error } = schema.validate(req.params);
       if (error) 
         res.status(400).json({Error:error.message});
       else
-        next();
+        next();}
     };
 
   public data = (req: Request, res: Response, next: NextFunction): void => {
@@ -25,6 +28,8 @@ class NoteValidator {
       const { error } = schema.validate(req.body);
       if (error) 
         res.status(400).json({Error:error.message});
+      if(req.params.id.length!=24)
+        res.status(400).json({Error:"No such note"});
       else
         next();
     };
@@ -36,7 +41,8 @@ class NoteValidator {
           email : Joi.string(),
           createdBy : Joi.string()
       });
-      const { error } = schema.validate(req.body);
+      
+      const { error } = schema.validate(req.params);
       if (error) 
         res.status(400).json({Error:error.message});
       else
