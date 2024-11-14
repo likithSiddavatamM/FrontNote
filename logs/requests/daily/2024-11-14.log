@@ -1,0 +1,1614 @@
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:13 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:13 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f0365aa55427789d8d95 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f0365aa55427789d8d95 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f0365aa55427789d8d95 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f0365aa55427789d8d95 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f0365aa55427789d8d95 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:30:14 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f0365aa55427789d8d95 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f0c92ba899354048867f HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f0c92ba899354048867f HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f0c92ba899354048867f HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f0c92ba899354048867f HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f0c92ba899354048867f HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f0c92ba899354048867f HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:32:41 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f0f61e8cd453842556bc HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f0f61e8cd453842556bc HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f0f61e8cd453842556bc HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:26 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f0f61e8cd453842556bc HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:27 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f0f61e8cd453842556bc HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:27 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f0f61e8cd453842556bc HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:27 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:33:27 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:23 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:23 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:23 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:23 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:23 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:23 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:23 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:23 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f1a7caeafa52b8fdd771 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:23 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:23 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f1a7caeafa52b8fdd771 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:24 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f1a7caeafa52b8fdd771 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:24 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f1a7caeafa52b8fdd771 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:24 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f1a7caeafa52b8fdd771 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:24 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f1a7caeafa52b8fdd771 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:24 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789 HTTP/1.1" 400 126 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:24 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:36:24 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f23949cd2f2604b598b0 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f23949cd2f2604b598b0 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f23949cd2f2604b598b0 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:49 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f23949cd2f2604b598b0 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:50 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f23949cd2f2604b598b0 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:50 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f23949cd2f2604b598b0 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:50 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789 HTTP/1.1" 400 126 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:50 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:38:50 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f2b7b19ff43b64f9f7d7 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f2b7b19ff43b64f9f7d7 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f2b7b19ff43b64f9f7d7 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:55 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f2b7b19ff43b64f9f7d7 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:56 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f2b7b19ff43b64f9f7d7 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:56 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f2b7b19ff43b64f9f7d7 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:56 +0000] "POST /api/v1/fundonotes/usernotes/archive/1.2345678911111111e+23 HTTP/1.1" 400 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:56 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:40:56 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f30f231e554f08f6f88f HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f30f231e554f08f6f88f HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f30f231e554f08f6f88f HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f30f231e554f08f6f88f HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f30f231e554f08f6f88f HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f30f231e554f08f6f88f HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:42:23 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:28 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:28 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:28 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:28 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:28 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:28 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:28 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:28 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f35081167f0724fc5b6b HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:28 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:29 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f35081167f0724fc5b6b HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:29 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f35081167f0724fc5b6b HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:29 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f35081167f0724fc5b6b HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:29 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f35081167f0724fc5b6b HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:29 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f35081167f0724fc5b6b HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:29 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:29 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:43:29 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f3e2dc2f621960731b01 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f3e2dc2f621960731b01 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f3e2dc2f621960731b01 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f3e2dc2f621960731b01 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f3e2dc2f621960731b01 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f3e2dc2f621960731b01 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:54 +0000] "POST /api/v1/fundonotes/usernotes/archive/11111111111111111111111 HTTP/1.1" 400 140 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:55 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:55 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:45:55 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f41d48f5d5536002a759 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f41d48f5d5536002a759 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f41d48f5d5536002a759 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f41d48f5d5536002a759 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f41d48f5d5536002a759 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f41d48f5d5536002a759 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:46:53 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:31 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:31 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:31 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:31 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f4bc7726384d346dce76 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f4bc7726384d346dce76 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f4bc7726384d346dce76 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f4bc7726384d346dce76 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f4bc7726384d346dce76 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f4bc7726384d346dce76 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:49:32 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6734f4bc7726384d346dce76 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:56 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:56 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:56 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:56 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:56 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:56 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:56 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:56 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f510dc5d1e1d5426ce93 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:57 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:57 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f510dc5d1e1d5426ce93 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:57 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f510dc5d1e1d5426ce93 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:57 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f510dc5d1e1d5426ce93 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:57 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f510dc5d1e1d5426ce93 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:57 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f510dc5d1e1d5426ce93 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:57 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6734f510dc5d1e1d5426ce93 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:57 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:57 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:57 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:50:57 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f5b8faac232a2c893812 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f5b8faac232a2c893812 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f5b8faac232a2c893812 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f5b8faac232a2c893812 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f5b8faac232a2c893812 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f5b8faac232a2c893812 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:44 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6734f5b8faac232a2c893812 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:45 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:45 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:45 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:53:45 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f5e639eff347304191f2 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f5e639eff347304191f2 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f5e639eff347304191f2 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f5e639eff347304191f2 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f5e639eff347304191f2 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f5e639eff347304191f2 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6734f5e639eff347304191f2 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:30 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6734f5fdb628e40514f905b1 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6734f5fdb628e40514f905b1 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f5fdb628e40514f905b1 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6734f5fdb628e40514f905b1 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f5fdb628e40514f905b1 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "POST /api/v1/fundonotes/usernotes/archive/6734f5fdb628e40514f905b1 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6734f5fdb628e40514f905b1 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:53 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:54 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2024:18:54:54 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:46 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6735609bf49aee2ef4153e12 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6735609bf49aee2ef4153e12 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735609bf49aee2ef4153e12 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735609bf49aee2ef4153e12 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "POST /api/v1/fundonotes/usernotes/archive/6735609bf49aee2ef4153e12 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "POST /api/v1/fundonotes/usernotes/archive/6735609bf49aee2ef4153e12 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6735609bf49aee2ef4153e12 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:02:29:47 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:37 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:37 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6735868a2374282c949a7a70 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6735868a2374282c949a7a70 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735868a2374282c949a7a70 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735868a2374282c949a7a70 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "POST /api/v1/fundonotes/usernotes/archive/6735868a2374282c949a7a70 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "POST /api/v1/fundonotes/usernotes/archive/6735868a2374282c949a7a70 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6735868a2374282c949a7a70 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:11:38 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6735882b9bd4080b887be503 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6735882b9bd4080b887be503 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735882b9bd4080b887be503 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735882b9bd4080b887be503 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "POST /api/v1/fundonotes/usernotes/archive/6735882b9bd4080b887be503 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "POST /api/v1/fundonotes/usernotes/archive/6735882b9bd4080b887be503 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6735882b9bd4080b887be503 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:18:35 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:36 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:36 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:36 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:36 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:36 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:36 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:36 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:36 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6735891c6ca519120c0bf1c3 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:36 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:36 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6735891c6ca519120c0bf1c3 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:36 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735891c6ca519120c0bf1c3 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:37 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735891c6ca519120c0bf1c3 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:37 +0000] "POST /api/v1/fundonotes/usernotes/archive/6735891c6ca519120c0bf1c3 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:37 +0000] "POST /api/v1/fundonotes/usernotes/archive/6735891c6ca519120c0bf1c3 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:37 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6735891c6ca519120c0bf1c3 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:37 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:37 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:37 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:22:37 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:50 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:50 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:50 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:50 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:50 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:50 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:50 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673589a2f74d9c0f68f96c52 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673589a2f74d9c0f68f96c52 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673589a2f74d9c0f68f96c52 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673589a2f74d9c0f68f96c52 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "POST /api/v1/fundonotes/usernotes/archive/673589a2f74d9c0f68f96c52 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "POST /api/v1/fundonotes/usernotes/archive/673589a2f74d9c0f68f96c52 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/673589a2f74d9c0f68f96c52 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:24:51 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "GET /api/v1/fundonotes/usernotes/readnote/67358c51f27c420880e80fc0 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/67358c51f27c420880e80fc0 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358c51f27c420880e80fc0 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358c51f27c420880e80fc0 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358c51f27c420880e80fc0 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358c51f27c420880e80fc0 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/67358c51f27c420880e80fc0 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:36:17 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "GET /api/v1/fundonotes/usernotes/readnote/67358c85406bd91de828f474 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/67358c85406bd91de828f474 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358c85406bd91de828f474 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358c85406bd91de828f474 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358c85406bd91de828f474 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358c85406bd91de828f474 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/67358c85406bd91de828f474 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:37:09 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "GET /api/v1/fundonotes/usernotes/readnote/67358d7d6158ef0970ba2fa0 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/67358d7d6158ef0970ba2fa0 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358d7d6158ef0970ba2fa0 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358d7d6158ef0970ba2fa0 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358d7d6158ef0970ba2fa0 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358d7d6158ef0970ba2fa0 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/67358d7d6158ef0970ba2fa0 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:41:17 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:46:33 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:46:33 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:46:33 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:46:33 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:46:33 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:13 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:13 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:13 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:14 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:14 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:43 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:43 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:43 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:43 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:43 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:43 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:43 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "GET /api/v1/fundonotes/usernotes/readnote/67358f77f93b183158d2d511 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/67358f77f93b183158d2d511 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358f77f93b183158d2d511 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358f77f93b183158d2d511 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358f77f93b183158d2d511 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358f77f93b183158d2d511 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/67358f77f93b183158d2d511 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:49:44 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:09 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:09 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:09 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:09 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:09 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:09 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:09 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:09 +0000] "GET /api/v1/fundonotes/usernotes/readnote/67358f91151c193a8c77992f HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:09 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:09 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/67358f91151c193a8c77992f HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:09 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358f91151c193a8c77992f HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:10 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358f91151c193a8c77992f HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:10 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358f91151c193a8c77992f HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:10 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358f91151c193a8c77992f HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:10 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/67358f91151c193a8c77992f HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:10 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:10 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:10 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:10 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:42 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "GET /api/v1/fundonotes/usernotes/readnote/67358fb3d675650860d93026 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/67358fb3d675650860d93026 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358fb3d675650860d93026 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67358fb3d675650860d93026 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358fb3d675650860d93026 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "POST /api/v1/fundonotes/usernotes/archive/67358fb3d675650860d93026 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/67358fb3d675650860d93026 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "POST /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:50:43 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673590332ad06615fcaa53e4 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673590332ad06615fcaa53e4 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673590332ad06615fcaa53e4 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673590332ad06615fcaa53e4 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "PUT /api/v1/fundonotes/usernotes/archive/673590332ad06615fcaa53e4 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "PUT /api/v1/fundonotes/usernotes/archive/673590332ad06615fcaa53e4 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/673590332ad06615fcaa53e4 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:51 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:52:52 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:29 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:29 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:29 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:29 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6735905a4cebad45606c202c HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6735905a4cebad45606c202c HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735905a4cebad45606c202c HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735905a4cebad45606c202c HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "PUT /api/v1/fundonotes/usernotes/archive/6735905a4cebad45606c202c HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "PUT /api/v1/fundonotes/usernotes/archive/6735905a4cebad45606c202c HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6735905a4cebad45606c202c HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:53:30 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:10 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "GET /api/v1/fundonotes/usernotes/readnote/67359083a0786641a0dfea12 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/67359083a0786641a0dfea12 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67359083a0786641a0dfea12 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/67359083a0786641a0dfea12 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "PUT /api/v1/fundonotes/usernotes/archive/67359083a0786641a0dfea12 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "PUT /api/v1/fundonotes/usernotes/archive/67359083a0786641a0dfea12 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/67359083a0786641a0dfea12 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:05:54:11 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [14/Nov/2024:05:55:10 +0000] "GET /api/v1/funddonotes/api-docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:55:10 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:55:17 +0000] "GET /pi-docs/ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:55:24 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:55:24 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 24784 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:55:24 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 152071 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:55:24 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 230293 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:55:24 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1452753 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:57:29 +0000] "POST /api/v1/funddonotes/user/register HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:58:14 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:58:14 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 24771 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:58:14 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:58:14 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:58:14 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:58:14 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:58:45 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 126 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:05:59:11 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 271 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:00:00 +0000] "POST /api/v1/fundonotes/user/forgotpassword HTTP/1.1" 200 148 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:00:08 +0000] "POST /api/v1/fundonotes/user/forgotpassword HTTP/1.1" 400 108 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:00:49 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 151 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:01:33 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673592114cb7d01984bcacfd HTTP/1.1" 200 184 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:02:01 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:07:51 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:07:52 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:07:52 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:07:52 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 24794 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:07:52 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:07:52 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:08:51 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673592114cb7d01984bcacfd HTTP/1.1" 200 49 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:11:27 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:11:27 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:11:27 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:11:27 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 24722 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:11:27 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:11:28 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:11:58 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673592114cb7d01984bcacfd HTTP/1.1" 200 49 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:12:06 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673592114cb7d01984bcacpd HTTP/1.1" 400 141 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:12:26 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673592114cb7d01984nbcacpd HTTP/1.1" 400 142 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:13:51 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673592114cb7d01984bcacfd HTTP/1.1" 200 49 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [14/Nov/2024:06:14:01 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/873592114cb7d01984bcacfd HTTP/1.1" 400 48 "-" "PostmanRuntime/7.42.0"
+
+info: ::1 - - [14/Nov/2024:06:15:49 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:15:49 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:15:49 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:15:49 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 24373 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:15:49 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:15:49 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:16:15 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673592114cb7d01984bcacfd HTTP/1.1" 200 49 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:16:23 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673592114cb7d01984bcacfo HTTP/1.1" 400 141 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:19:10 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:19:11 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:19:11 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:19:11 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:19:11 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 24320 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:19:11 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:19:35 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673592114cb7d01984bcacfd HTTP/1.1" 200 49 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:19:42 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673592114cb7d0198s4bcacfd HTTP/1.1" 400 142 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:20:07 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:20:07 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:20:07 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:20:07 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:20:07 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 24771 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:20:07 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:20:58 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:22:07 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:22:07 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:22:07 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:22:07 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:22:08 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 25263 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:22:08 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:22:25 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/60c72b1f5f1b2c001d3f5b9b HTTP/1.1" 400 48 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:23:13 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:23:13 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:23:13 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:23:13 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 25034 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:23:13 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:23:13 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:23:35 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/60c72b1f5f1b2c001d3f5b9b HTTP/1.1" 400 48 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:23:49 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/673592114cb7d01984bcacfd HTTP/1.1" 200 49 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:24:03 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 169 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:24:29 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673592114cb7d01984bcacfd HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:24:32 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673592114cb7d01984bcacfd HTTP/1.1" 200 85 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:24:46 +0000] "PUT /api/v1/fundonotes/usernotes/archive/673592114cb7d01984bcacfd HTTP/1.1" 200 32 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:24:49 +0000] "PUT /api/v1/fundonotes/usernotes/archive/673592114cb7d01984bcacfd HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:24:57 +0000] "PUT /api/v1/fundonotes/usernotes/archive/673592114cb7d01984bcacfd HTTP/1.1" 200 32 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:25:24 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 169 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:25:29 +0000] "PUT /api/v1/fundonotes/usernotes/archive/673592114cb7d01984bcacfd HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:25:32 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:25:44 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673592114cb7d01984bcacfd HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:25:55 +0000] "GET /api/v1/fundonotes/usernotes/trashBin HTTP/1.1" 200 169 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:26:13 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673592114cb7d01984bcacfd HTTP/1.1" 200 85 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:26:19 +0000] "GET /api/v1/fundonotes/usernotes/trashBin HTTP/1.1" 200 22 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:26:34 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/673592114cb7d01984bcacfd HTTP/1.1" 200 31 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:26:48 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673592114cb7d01984bcacfd HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:26:53 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/673592114cb7d01984bcacfd HTTP/1.1" 200 31 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:31:07 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:31:07 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:31:07 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:31:07 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 24070 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:31:07 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:31:07 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:32:05 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 138 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:32:10 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:32:21 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 500 80 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:32:44 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 284 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:32:53 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:33:21 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 168 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:33:45 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af7eb6 HTTP/1.1" 200 201 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:33:51 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c%2Baf7eb6 HTTP/1.1" 400 128 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:34:01 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af7eb6 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:34:08 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4580af7eb6 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:34:13 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b458%2A0af7eb6 HTTP/1.1" 400 129 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:34:18 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b450af7eb6 HTTP/1.1" 400 127 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:34:22 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4506af7eb6 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:38:20 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4506af7eb6 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:38:48 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4506sasaaf7eb6 HTTP/1.1" 400 132 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:38:52 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4506sasaaf7eb6 HTTP/1.1" 400 132 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:39:00 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4506sasaaf7eb6as HTTP/1.1" 400 134 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:39:01 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4506sasaaf7eb6as HTTP/1.1" 400 134 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:39:18 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4506sasaaf7eb6as HTTP/1.1" 400 134 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:39:19 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4506sasaaf7eb6as HTTP/1.1" 400 134 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:39:33 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4506sasaaf7eb6as HTTP/1.1" 400 134 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:39:49 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b450 HTTP/1.1" 400 121 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:39:57 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b450anskjansn HTTP/1.1" 400 130 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:40:32 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b450anskjansn HTTP/1.1" 400 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:40:36 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346bn HTTP/1.1" 400 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:40:40 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1bkajnjnas4346bn HTTP/1.1" 400 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:40:46 +0000] "GET /api/v1/fundonotes/usernotes/readnote/%2B%2B%2B%2B%2B HTTP/1.1" 400 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:40:52 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673592114cb7d01984bcacfd HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:41:03 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673592114cb7d01984bcacfd HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:41:28 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673592114cb7d01984bcacfd HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:41:30 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673592114cb7d01984bcacfd HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:41:47 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af7eb6 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:41:54 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af7eb6 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:41:59 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af7eb6s HTTP/1.1" 400 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:42:03 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af HTTP/1.1" 400 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:42:04 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af HTTP/1.1" 400 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:42:07 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4as HTTP/1.1" 400 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:42:14 +0000] "GET /api/v1/fundonotes/usernotes/readnote/%2B%2B%2B%2B HTTP/1.1" 400 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:42:17 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af7eb6 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:45:23 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af7eb6 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:45:27 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af7eb6s HTTP/1.1" 400 129 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:45:32 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af7es HTTP/1.1" 400 127 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:45:35 +0000] "GET /api/v1/fundonotes/usernotes/readnote/sas HTTP/1.1" 400 107 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:46:19 +0000] "GET /api/v1/fundonotes/usernotes/readnote/sas HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:46:30 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af7eb6 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:46:33 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0asaf7eb6 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:46:39 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0sas6 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:46:42 +0000] "GET /api/v1/fundonotes/usernotes/readnote/7 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:46:52 +0000] "GET /api/v1/fundonotes/usernotes/readnote/s HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:47:45 +0000] "GET /api/v1/fundonotes/usernotes/readnote/s HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:48:17 +0000] "GET /api/v1/fundonotes/usernotes/readnote/ssaskams HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:48:18 +0000] "GET /api/v1/fundonotes/usernotes/readnote/ssaskams HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:49:56 +0000] "GET /api/v1/fundonotes/usernotes/readnote/ssaskams HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:49:57 +0000] "GET /api/v1/fundonotes/usernotes/readnote/ssaskams HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:49:57 +0000] "GET /api/v1/fundonotes/usernotes/readnote/ssaskams HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:49:58 +0000] "GET /api/v1/fundonotes/usernotes/readnote/ssaskams HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:49:58 +0000] "GET /api/v1/fundonotes/usernotes/readnote/ssaskams HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:49:58 +0000] "GET /api/v1/fundonotes/usernotes/readnote/ssaskams HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:49:58 +0000] "GET /api/v1/fundonotes/usernotes/readnote/ssaskams HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:50:25 +0000] "GET /api/v1/fundonotes/usernotes/readnote/asa HTTP/1.1" 200 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:51:37 +0000] "GET /api/v1/fundonotes/usernotes/readnote/asaasa HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:51:40 +0000] "GET /api/v1/fundonotes/usernotes/readnote/asaasaas HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:51:41 +0000] "GET /api/v1/fundonotes/usernotes/readnote/asaasaas HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:51:45 +0000] "GET /api/v1/fundonotes/usernotes/readnote/-- HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:52:42 +0000] "GET /api/v1/fundonotes/usernotes/readnote/--aslkamdomasdmosamdosamdkomsad HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:53:33 +0000] "GET /api/v1/fundonotes/usernotes/readnote/111111111111111111111111 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:00 +0000] "GET /api/v1/fundonotes/usernotes/readnote/111111111111111111111111 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:00 +0000] "GET /api/v1/fundonotes/usernotes/readnote/111111111111111111111111 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:00 +0000] "GET /api/v1/fundonotes/usernotes/readnote/111111111111111111111111 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:00 +0000] "GET /api/v1/fundonotes/usernotes/readnote/111111111111111111111111 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:00 +0000] "GET /api/v1/fundonotes/usernotes/readnote/111111111111111111111111 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:00 +0000] "GET /api/v1/fundonotes/usernotes/readnote/111111111111111111111111 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:01 +0000] "GET /api/v1/fundonotes/usernotes/readnote/111111111111111111111111 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:05 +0000] "GET /api/v1/fundonotes/usernotes/readnote/bjhbhb HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:09 +0000] "GET /api/v1/fundonotes/usernotes/readnote/8%2F HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:39 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0af7eb6 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:43 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0saf7eb6 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:43 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b45c0saf7eb6 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:46 +0000] "GET /api/v1/fundonotes/usernotes/readnote/673599b1b4346b4saf7eb6 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:56:59 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673599b1b4346b45c0af7eb6 HTTP/1.1" 200 70 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:57:04 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673599b1b4346b45c%20%20%200af7eb6 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:57:08 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673599baf7eb6 HTTP/1.1" 400 24 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Nov/2024:06:57:11 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/673599b1b4346b45c0af7eb6 HTTP/1.1" 200 85 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:57:54 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:57:54 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:57:54 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:57:54 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:57:54 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:57:54 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:58:51 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:58:51 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:58:51 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:58:51 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:58:51 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:06:58:51 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:01:34 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:01:34 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:01:34 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:01:34 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:01:34 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:01:34 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:03:21 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:03:21 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:03:22 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:03:22 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:03:22 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:03:22 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:05:01 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:05:01 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:05:01 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:05:01 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:05:01 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:05:01 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 24 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6735a173ba3ccf49b8c79088 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6735a173ba3ccf49b8c79088 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735a173ba3ccf49b8c79088 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735a173ba3ccf49b8c79088 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "PUT /api/v1/fundonotes/usernotes/archive/6735a173ba3ccf49b8c79088 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "PUT /api/v1/fundonotes/usernotes/archive/6735a173ba3ccf49b8c79088 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6735a173ba3ccf49b8c79088 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:27 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:42 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:42 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:42 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:42 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 24 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6735a183c513570ea4809eaa HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6735a183c513570ea4809eaa HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735a183c513570ea4809eaa HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735a183c513570ea4809eaa HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "PUT /api/v1/fundonotes/usernotes/archive/6735a183c513570ea4809eaa HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "PUT /api/v1/fundonotes/usernotes/archive/6735a183c513570ea4809eaa HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6735a183c513570ea4809eaa HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:06:43 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 201 118 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "POST /api/v1/fundonotes/user/register HTTP/1.1" 400 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 263 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 106 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 400 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "POST /api/v1/fundonotes/usernotes/createnote HTTP/1.1" 201 139 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "GET /api/v1/fundonotes/usernotes/readnote/invalidId HTTP/1.1" 400 24 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "GET /api/v1/fundonotes/usernotes/readnote/6735a19a8668164ad8650361 HTTP/1.1" 200 172 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "GET /api/v1/fundonotes/usernotes/readnotes HTTP/1.1" 200 141 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "PUT /api/v1/fundonotes/usernotes/updatenote/6735a19a8668164ad8650361 HTTP/1.1" 200 49 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735a19a8668164ad8650361 HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "DELETE /api/v1/fundonotes/usernotes/trash/6735a19a8668164ad8650361 HTTP/1.1" 200 85 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "PUT /api/v1/fundonotes/usernotes/archive/6735a19a8668164ad8650361 HTTP/1.1" 200 32 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "PUT /api/v1/fundonotes/usernotes/archive/6735a19a8668164ad8650361 HTTP/1.1" 200 46 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "DELETE /api/v1/fundonotes/usernotes/deletepermanetly/6735a19a8668164ad8650361 HTTP/1.1" 200 31 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "PUT /api/v1/fundonotes/usernotes/archive/123456789111111111111111 HTTP/1.1" 400 37 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "GET /api/v1/fundonotes/usernotes/archives HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [14/Nov/2024:07:07:06 +0000] "GET /api/v1/fundonotes/usernotes/trashbin HTTP/1.1" 200 22 "-" "node-superagent/3.8.3"
+
