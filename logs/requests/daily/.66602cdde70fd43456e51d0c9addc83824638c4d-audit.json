@@ -39,14 +39,26 @@
             "date": 1731483712452,
             "name": "logs\\requests\\daily\\2024-11-13.log",
             "hash": "c444277aeb2e6994460b6ff23de79a7929087e7105bb006dc4f98ac612f41271"
-<<<<<<< HEAD
-=======
         },
         {
             "date": 1731522613940,
             "name": "logs\\requests\\daily\\2024-11-14.log",
             "hash": "a10d6afb1176ad113a22f3da9de46755d434978c1bc2d27164b2dab1f68bc661"
->>>>>>> UserNotes
+        },
+        {
+            "date": 1731741595173,
+            "name": "logs\\requests\\daily\\2024-11-16.log",
+            "hash": "4e5062fb540cfa8546d4634c0a1dd44c985bc51ce33189d8414d036f5594f1ff"
+        },
+        {
+            "date": 1731840612543,
+            "name": "logs\\requests\\daily\\2024-11-17.log",
+            "hash": "2079157a39eac4f4a58602f4db66e3a44bb638c65dd54300ccbd88e24f32f656"
+        },
+        {
+            "date": 1731910788096,
+            "name": "logs\\requests\\daily\\2024-11-18.log",
+            "hash": "e5aac6a3e923a0a9ca6e225f2dea5c40b42154ab77cdd8957db207d025a2f0e2"
         }
     ],
     "hashType": "sha256"
