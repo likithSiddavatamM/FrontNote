@@ -1,0 +1,450 @@
+info: ::1 - - [01/Dec/2024:13:42:37 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:13:42:37 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:04:35 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:04:35 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:04:44 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:04:44 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:04:55 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:04:55 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:05:13 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:05:13 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:06:59 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:06:59 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:07:26 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:07:26 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:09:29 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:09:29 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:10:01 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:10:01 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:11:05 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:11:05 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:12:46 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:12:46 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:13:22 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:13:22 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:13:40 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:13:40 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:13:52 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:13:52 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:14:03 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:14:03 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:15:08 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:15:08 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:16:24 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:16:24 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:18:16 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:18:16 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:18:44 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:18:44 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:19:48 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:19:48 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:21:45 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:21:45 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:21:59 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:21:59 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:25:33 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:25:33 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:28:18 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:28:18 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:28:21 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:28:21 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:29:37 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:29:37 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:29:58 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:29:58 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:30:01 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:30:01 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:30:02 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:30:02 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:30:04 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:30:04 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:30:25 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:30:25 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:32:42 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:32:42 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:32:51 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:32:51 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:33:39 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:33:39 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:33:49 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:33:49 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:33:56 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:33:56 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:35:35 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:35:35 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:35:37 +0000] "GET /api/v1/fundonotes/usernotes/archive/archives HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:35:37 +0000] "GET /api/v1/fundonotes/usernotes/archive/archives HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:35:41 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:35:41 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:36:02 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:36:02 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:43:18 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:43:18 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:43:31 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:43:31 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:44:09 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:44:09 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:44:11 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:44:11 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:44:23 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:44:23 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:46:27 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:46:27 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:47:23 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:47:23 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:47:28 +0000] "PUT /api/v1/fundonotes/usernotes/6741c68f90cb6525601caf49 HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:47:30 +0000] "PUT /api/v1/fundonotes/usernotes/6741c68f90cb6525601caf49 HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:51:00 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:51:00 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:52:31 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:52:31 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:53:26 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:53:26 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:53:50 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:53:50 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:54:45 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:54:51 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:54:51 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:56:12 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:56:18 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:56:18 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:56:50 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:56:50 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:57:15 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:57:15 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:57:47 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:57:47 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:59:44 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:14:59:44 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:00:38 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:00:38 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:03:31 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:03:31 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:03:32 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:03:32 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:03:42 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:03:42 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:03:47 +0000] "PUT /api/v1/fundonotes/usernotes/6741ce9a90cb6525601caf4e HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:03:50 +0000] "PUT /api/v1/fundonotes/usernotes/6741ce9a90cb6525601caf4e HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:03:50 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:03:50 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:03:58 +0000] "PUT /api/v1/fundonotes/usernotes/6741ce9a90cb6525601caf4e HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:05:19 +0000] "PUT /api/v1/fundonotes/usernotes/6741ce9a90cb6525601caf4e HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:05:20 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:15:05:20 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:18:17 +0000] "PUT /api/v1/fundonotes/usernotes/6741c68f90cb6525601caf49 HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:18:18 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:18:18 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:18:22 +0000] "PUT /api/v1/fundonotes/usernotes/6741c68f90cb6525601caf49 HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:18:25 +0000] "PUT /api/v1/fundonotes/usernotes/6741c68f90cb6525601caf49 HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:18:27 +0000] "PUT /api/v1/fundonotes/usernotes/6741c68f90cb6525601caf49 HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:18:28 +0000] "PUT /api/v1/fundonotes/usernotes/6741c68f90cb6525601caf49 HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:18:29 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:18:29 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:13 +0000] "PUT /api/v1/fundonotes/usernotes/674ac6b536152b58e0bb6173/archive HTTP/1.1" 200 32 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:15 +0000] "GET /api/v1/fundonotes/usernotes/archive/archives HTTP/1.1" 200 193 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:15 +0000] "GET /api/v1/fundonotes/usernotes/archive/archives HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:20 +0000] "PUT /api/v1/fundonotes/usernotes/674ac6b536152b58e0bb6173/trash HTTP/1.1" 200 70 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:23 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 200 193 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:23 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:26 +0000] "PUT /api/v1/fundonotes/usernotes/674ac6b536152b58e0bb6173/trash HTTP/1.1" 200 85 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:28 +0000] "GET /api/v1/fundonotes/usernotes/archive/archives HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:28 +0000] "GET /api/v1/fundonotes/usernotes/archive/archives HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:30 +0000] "PUT /api/v1/fundonotes/usernotes/674ac6b536152b58e0bb6173/archive HTTP/1.1" 200 46 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:31 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:41:31 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:49:13 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:49:13 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:56:53 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:56:53 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:57:12 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:57:12 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:57:44 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:17:57:44 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:01:02 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:01:02 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:01:24 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:01:24 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:01:53 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:01:53 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:02:24 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:02:24 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:12:42 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:12:42 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:13:55 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:13:55 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:14:21 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:14:21 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:14:35 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:14:35 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:15:32 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:15:32 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:21:23 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2166 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:21:23 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2146 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:21:40 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:21:40 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:21:49 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:21:49 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:22:45 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 316 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:22:45 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:22:45 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:23:02 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:23:02 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:23:10 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 316 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:23:10 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:23:10 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:23:58 +0000] "POST /api/v1/fundonotes/user HTTP/1.1" 201 118 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:05 +0000] "POST /api/v1/fundonotes/user/login HTTP/1.1" 200 289 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:05 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:05 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:19 +0000] "GET /api/v1/fundonotes/usernotes/archive/archives HTTP/1.1" 200 22 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:19 +0000] "GET /api/v1/fundonotes/usernotes/archive/archives HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:23 +0000] "GET /api/v1/fundonotes/usernotes/archive/archives HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:23 +0000] "GET /api/v1/fundonotes/usernotes/archive/archives HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:25 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:25 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:47 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 200 22 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:47 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:54 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:24:54 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:26:36 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:26:36 +0000] "GET /api/v1/fundonotes/usernotes/trash/trashbin HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:26:40 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:26:40 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:26:54 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:26:54 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:29:47 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:29:47 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:29:49 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:29:49 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:29:51 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:29:51 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:29:52 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:29:52 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:29:53 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [01/Dec/2024:18:29:53 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 400 48 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+

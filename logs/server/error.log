@@ -7205,3 +7205,89 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-11-16T15:13:15.979Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 254
+    at JSON.parse (<anonymous>)
+    at parse (E:\Project1\FundDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\Project1\FundDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/fundonotes/usernotes/6741c68f90cb6525601caf49 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-28T08:22:00.068Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:42:53.476Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:46:08.640Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:47:27.003Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:48:00.392Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:49:01.971Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:22:11)
+    at Generator.throw (<anonymous>)
+    at rejected (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:6:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Nov 29 2024 09:20:47 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5969.109},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18351007,"external":20732034,"heapTotal":74670080,"heapUsed":32752400,"rss":111800320},"pid":17428,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:22:11)\n    at Generator.throw (<anonymous>)\n    at rejected (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-29T03:50:47.302Z","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":11,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":22,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.throw","line":null,"method":"throw","native":false},{"column":65,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"rejected","line":6,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:22:11)
+    at Generator.throw (<anonymous>)
+    at rejected (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:6:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Nov 29 2024 09:21:22 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6004.5},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18351007,"external":20732034,"heapTotal":75456512,"heapUsed":32969144,"rss":112033792},"pid":14400,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:22:11)\n    at Generator.throw (<anonymous>)\n    at rejected (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-29T03:51:22.690Z","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":11,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":22,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.throw","line":null,"method":"throw","native":false},{"column":65,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"rejected","line":6,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T04:12:18.244Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:57:31.428Z"}

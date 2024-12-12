@@ -4,14 +4,12 @@ dotenv.config();
 import express, { Application } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-
 import routes from './routes';
 import Database from './config/database';
 import ErrorHandler from './middlewares/error.middleware';
 import Logger from './config/logger';
 import swaggerUi from 'swagger-ui-express';
 import swaggerDocument from '../Swagger/openApi.json'
-
 import morgan from 'morgan';
 
 class App {

@@ -18,7 +18,7 @@ class Transporter {
 
   public sendMail = async (forgetPasswordAccessToken: string, email: string) => {
     this.data.to = email;
-    this.data.text = `Your reset password token is '${forgetPasswordAccessToken}'`;
+    this.data.text = `http://localhost:3001/resetpassword/${forgetPasswordAccessToken}`;
     return await this.transporter.sendMail(this.data);
   };
 }

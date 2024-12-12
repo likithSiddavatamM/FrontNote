@@ -8,7 +8,7 @@ class NoteService {
   public createNote = async (reqBody: { title: string; description: string; email: string; createdBy: string }): Promise<object> => {
     const data_id = JSON.parse(JSON.stringify(await keepnotes.create(reqBody)))._id;
     await deleteKey(reqBody.createdBy);
-    return keepnotes.findOne({ _id: data_id }, { email: true, title: true, description: true, createdBy: true, _id: false });
+    return keepnotes.findOne({ _id: data_id }, { title: true, description: true, createdBy: true, email: true, color:true });
   };
 
   // Find a note
@@ -25,7 +25,7 @@ class NoteService {
   public findNotes = async (createdBy: string): Promise<Object> => {
     const data = await keepnotes.find(
       { createdBy: createdBy, isArchive: false, isTrash: false },
-      { title: true, description: true, createdBy: true, email: true, _id: false }
+      { title: true, description: true, createdBy: true, email: true, color:true }
     );
     if (data.length === 0) throw new Error("No such notes available");
     await redisClient.setEx(createdBy, 1111, JSON.stringify(data));
@@ -34,9 +34,9 @@ class NoteService {
 
   // Update note
   public updateNote = async (req: Request): Promise<string> => {
-    const data = JSON.parse(JSON.stringify(await keepnotes.findOne({ createdBy: req.body.createdBy, _id: req.params.id, isArchive: false, isTrash: false })));
+    const data = JSON.parse(JSON.stringify(await keepnotes.findOne({ createdBy: req.body.createdBy, _id: req.params.id,})));
     if (!data) throw new Error("No such notes available");
-    await keepnotes.updateOne({ _id: data._id }, { $set: { title: req.body.title || data.title, description: req.body.description || data.description } });
+    await keepnotes.updateOne({ _id: data._id }, { $set: { title: req.body.title || data.title, description: req.body.description || data.description , color:req.body.color||data.color} });
     await deleteKey(req.body.createdBy);
     return "Note Updated Successfully";
   };
@@ -55,14 +55,14 @@ class NoteService {
   // Delete notes permanently
   public deletePermanently = async (req: Request): Promise<any> => {
     await deleteKey(req.body.createdBy);
-    return await keepnotes.deleteOne({ createdBy: req.body.createdBy, _id: req.params.id, isTrash: true });
+    return await keepnotes.deleteOne({ createdBy: req.body.createdBy, _id: req.params.id, });
   };
 
   // Trashed notes
   public trashBin = async (createdBy: string): Promise<Object[]> => {
     return await keepnotes.find(
       { createdBy: createdBy, isTrash: true },
-      { title: true, description: true, createdBy: true, email: true, _id: false }
+      { title: true, description: true, createdBy: true, email: true, color:true }
     );
   };
 
@@ -79,7 +79,7 @@ class NoteService {
   public archives = async (createdBy: string): Promise<object> => {
     return await keepnotes.find(
       { createdBy: createdBy, isArchive: true, isTrash: false },
-      { title: true, description: true, createdBy: true, email: true, _id: false }
+      { title: true, description: true, createdBy: true, email: true, color:true }
     );
   };
 }

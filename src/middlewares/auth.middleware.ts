@@ -27,6 +27,6 @@ export const userAuth = (secretkey = 'auth') => async (req: Request, res: Respon
 
     next();
   } catch (error) {
-    res.json({ Error: `${error.message}` });
+    res.json({ code: HttpStatus.BAD_REQUEST, Error: `${error.message}` });
   }
 };

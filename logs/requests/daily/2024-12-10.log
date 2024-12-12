@@ -1,0 +1,14 @@
+info: ::1 - - [10/Dec/2024:08:42:48 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:08:42:48 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:08:42:56 +0000] "PUT /api/v1/fundonotes/usernotes/6742055090cb6525601caf59 HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:08:43:01 +0000] "PUT /api/v1/fundonotes/usernotes/6742055090cb6525601caf59 HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:08:43:06 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 200 2174 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:08:43:06 +0000] "GET /api/v1/fundonotes/usernotes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+
+info: ::1 - - [10/Dec/2024:08:43:10 +0000] "PUT /api/v1/fundonotes/usernotes/6742055090cb6525601caf59 HTTP/1.1" 200 49 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+

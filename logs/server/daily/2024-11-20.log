@@ -1,0 +1,17 @@
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-19T20:26:20.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-20T03:14:25.000Z"}
+info: Connected to the database. {"timestamp":"2024-11-20T03:14:25.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-20T05:21:22.007Z"}
+info: Connected to the database. {"timestamp":"2024-11-20T05:21:22.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-20T06:51:46.559Z"}
+info: Connected to the database. {"timestamp":"2024-11-20T06:51:46.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-20T10:08:37.238Z"}
+info: Connected to the database. {"timestamp":"2024-11-20T10:08:37.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-20T15:53:48.313Z"}
+info: Connected to the database. {"timestamp":"2024-11-20T15:53:48.378Z"}

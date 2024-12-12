@@ -1,0 +1,47 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:33:38.224Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:33:38.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:37:28.444Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:37:28.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:37:47.888Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:37:47.977Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:37:52.999Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:37:53.028Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:38:01.741Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:38:01.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:38:07.105Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:38:07.129Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:38:48.378Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:38:48.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T02:09:15.424Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T02:09:15.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T05:07:54.541Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T05:07:54.569Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 254
+    at JSON.parse (<anonymous>)
+    at parse (E:\Project1\FundDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\Project1\FundDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/fundonotes/usernotes/6741c68f90cb6525601caf49 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-28T08:22:00.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T09:19:09.117Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T09:19:09.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T09:20:36.508Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T09:20:36.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T09:20:46.654Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T09:20:46.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T09:24:14.070Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T09:24:14.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T09:24:31.034Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T09:24:31.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T16:50:33.430Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T16:50:33.543Z"}

@@ -14,10 +14,11 @@ class NoteValidator {
 
   public data = (req: Request, res: Response, next: NextFunction): void => {
     const schema = Joi.object({
-      title: Joi.string(),
-      description: Joi.string(),
+      title: Joi.string().allow('').default(""),
+      description: Joi.string().allow('').default(""),
       email: Joi.string(),
       createdBy: Joi.string(),
+      color:Joi.string().allow('').default(""),
     });
 
     const { error } = schema.validate(req.body);
@@ -32,6 +33,7 @@ class NoteValidator {
       description: Joi.string(),
       email: Joi.string(),
       createdBy: Joi.string(),
+      color:Joi.string().allow('').default(""),
     });
 
     const { error } = schema.validate(req.params);

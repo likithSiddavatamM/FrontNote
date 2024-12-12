@@ -1,0 +1,109 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T02:52:03.713Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T02:52:03.744Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:42:53.476Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:46:08.640Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:47:27.003Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:48:00.392Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:49:01.971Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:10.265Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:10.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:15.517Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:15.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:18.535Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:18.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:21.082Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:21.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:30.820Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:30.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:40.911Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:40.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:51:18.395Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:51:18.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:53:43.221Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:53:43.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:53:45.779Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:53:45.802Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:53:47.994Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:53:48.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:58:44.752Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:58:44.775Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T04:09:10.657Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T04:09:10.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T04:10:23.246Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T04:10:23.272Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T04:11:29.233Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T04:11:29.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T04:11:32.944Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T04:11:32.975Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T04:12:18.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T05:08:00.850Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T05:08:00.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:14:24.523Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:14:24.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:15:06.765Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:15:06.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:15:09.829Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:15:09.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:51:56.763Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:51:56.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:52:08.221Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:52:08.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:54:12.125Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:54:12.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:54:21.732Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:54:21.758Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:56:23.760Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:56:23.783Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:57:31.428Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T07:58:44.268Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T07:58:44.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T07:58:46.433Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T07:58:46.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T07:58:50.857Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T07:58:50.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T07:58:54.155Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T07:58:54.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T17:32:35.710Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T17:32:35.750Z"}

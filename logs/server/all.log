@@ -15518,3 +15518,319 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-18T0
 info: Connected to the database. {"timestamp":"2024-11-18T06:19:45.481Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-18T09:56:38.591Z"}
 info: Connected to the database. {"timestamp":"2024-11-18T09:56:38.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-21T09:15:08.912Z"}
+info: Connected to the database. {"timestamp":"2024-11-21T09:15:08.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-21T09:16:17.443Z"}
+info: Connected to the database. {"timestamp":"2024-11-21T09:16:17.496Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-21T09:19:56.570Z"}
+info: Connected to the database. {"timestamp":"2024-11-21T09:19:56.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-21T09:21:44.763Z"}
+info: Connected to the database. {"timestamp":"2024-11-21T09:21:44.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-21T09:22:06.974Z"}
+info: Connected to the database. {"timestamp":"2024-11-21T09:22:07.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-21T09:22:19.529Z"}
+info: Connected to the database. {"timestamp":"2024-11-21T09:22:19.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-21T11:22:01.414Z"}
+info: Connected to the database. {"timestamp":"2024-11-21T11:22:01.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-22T06:10:01.410Z"}
+info: Connected to the database. {"timestamp":"2024-11-22T06:10:01.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-23T10:47:31.678Z"}
+info: Connected to the database. {"timestamp":"2024-11-23T10:47:31.772Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-23T12:07:55.164Z"}
+info: Connected to the database. {"timestamp":"2024-11-23T12:07:55.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-23T12:07:58.673Z"}
+info: Connected to the database. {"timestamp":"2024-11-23T12:07:58.727Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-23T12:09:55.545Z"}
+info: Connected to the database. {"timestamp":"2024-11-23T12:09:55.598Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-24T04:14:59.847Z"}
+info: Connected to the database. {"timestamp":"2024-11-24T04:14:59.912Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-25T05:38:02.740Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T05:38:02.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-25T10:19:43.963Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T10:19:43.991Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-25T10:20:39.555Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T10:20:39.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-25T15:24:58.656Z"}
+info: Connected to the database. {"timestamp":"2024-11-25T15:24:58.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-26T01:58:44.912Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T01:58:44.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-26T04:45:55.950Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T04:45:56.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-26T06:18:52.497Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T06:18:52.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-26T06:18:58.558Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T06:18:58.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-26T15:12:17.974Z"}
+info: Connected to the database. {"timestamp":"2024-11-26T15:12:18.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T08:09:47.336Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T08:09:47.457Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T08:12:05.431Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T08:12:05.460Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T08:12:53.099Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T08:12:53.162Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T08:13:40.714Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T08:13:40.742Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T08:13:42.872Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T08:13:42.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T08:14:03.577Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T08:14:03.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T08:14:15.273Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T08:14:15.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T08:14:19.098Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T08:14:19.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T09:01:36.694Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T09:01:36.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:33:38.224Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:33:38.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:37:28.444Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:37:28.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:37:47.888Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:37:47.977Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:37:52.999Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:37:53.028Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:38:01.741Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:38:01.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:38:07.105Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:38:07.129Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-27T18:38:48.378Z"}
+info: Connected to the database. {"timestamp":"2024-11-27T18:38:48.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T02:09:15.424Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T02:09:15.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T05:07:54.541Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T05:07:54.569Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 254
+    at JSON.parse (<anonymous>)
+    at parse (E:\Project1\FundDoNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\Project1\FundDoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\Project1\FundDoNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/fundonotes/usernotes/6741c68f90cb6525601caf49 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-11-28T08:22:00.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T09:19:09.117Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T09:19:09.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T09:20:36.508Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T09:20:36.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T09:20:46.654Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T09:20:46.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T09:24:14.070Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T09:24:14.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T09:24:31.034Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T09:24:31.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-28T16:50:33.430Z"}
+info: Connected to the database. {"timestamp":"2024-11-28T16:50:33.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T02:52:03.713Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T02:52:03.744Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:42:53.476Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:46:08.640Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:47:27.003Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:48:00.392Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T03:49:01.971Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:10.265Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:10.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:15.517Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:15.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:18.535Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:18.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:21.082Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:21.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:30.820Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:30.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:50:40.911Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:50:40.956Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:22:11)
+    at Generator.throw (<anonymous>)
+    at rejected (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:6:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Nov 29 2024 09:20:47 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5969.109},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18351007,"external":20732034,"heapTotal":74670080,"heapUsed":32752400,"rss":111800320},"pid":17428,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:22:11)\n    at Generator.throw (<anonymous>)\n    at rejected (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-29T03:50:47.302Z","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":11,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":22,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.throw","line":null,"method":"throw","native":false},{"column":65,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"rejected","line":6,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:51:18.395Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:51:18.474Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (E:\Project1\FundDoNotes\node_modules\express\lib\response.js:278:15)
+    at UserController.<anonymous> (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:22:11)
+    at Generator.throw (<anonymous>)
+    at rejected (E:\Project1\FundDoNotes\src\controllers\user.controller.ts:6:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Nov 29 2024 09:21:22 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6004.5},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\Project1\\FundDoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18351007,"external":20732034,"heapTotal":75456512,"heapUsed":32969144,"rss":112033792},"pid":14400,"uid":null,"version":"v20.17.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at UserController.<anonymous> (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:22:11)\n    at Generator.throw (<anonymous>)\n    at rejected (E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-11-29T03:51:22.690Z","trace":[{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":659,"method":"setHeader","native":false},{"column":10,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"E:\\Project1\\FundDoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":11,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":null,"line":22,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.throw","line":null,"method":"throw","native":false},{"column":65,"file":"E:\\Project1\\FundDoNotes\\src\\controllers\\user.controller.ts","function":"rejected","line":6,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:53:43.221Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:53:43.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:53:45.779Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:53:45.802Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:53:47.994Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:53:48.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T03:58:44.752Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T03:58:44.775Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T04:09:10.657Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T04:09:10.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T04:10:23.246Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T04:10:23.272Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T04:11:29.233Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T04:11:29.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T04:11:32.944Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T04:11:32.975Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T04:12:18.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T05:08:00.850Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T05:08:00.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:14:24.523Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:14:24.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:15:06.765Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:15:06.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:15:09.829Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:15:09.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:51:56.763Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:51:56.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:52:08.221Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:52:08.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:54:12.125Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:54:12.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:54:21.732Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:54:21.758Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T06:56:23.760Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T06:56:23.783Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/fundonotes/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-11-29T07:57:31.428Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T07:58:44.268Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T07:58:44.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T07:58:46.433Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T07:58:46.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T07:58:50.857Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T07:58:50.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T07:58:54.155Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T07:58:54.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-29T17:32:35.710Z"}
+info: Connected to the database. {"timestamp":"2024-11-29T17:32:35.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-30T03:59:27.531Z"}
+info: Connected to the database. {"timestamp":"2024-11-30T03:59:27.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-30T05:33:14.874Z"}
+info: Connected to the database. {"timestamp":"2024-11-30T05:33:14.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-30T05:33:18.714Z"}
+info: Connected to the database. {"timestamp":"2024-11-30T05:33:18.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-30T06:53:39.832Z"}
+info: Connected to the database. {"timestamp":"2024-11-30T06:53:39.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-30T06:53:55.213Z"}
+info: Connected to the database. {"timestamp":"2024-11-30T06:53:55.236Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-30T06:53:58.240Z"}
+info: Connected to the database. {"timestamp":"2024-11-30T06:53:58.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-30T06:54:02.182Z"}
+info: Connected to the database. {"timestamp":"2024-11-30T06:54:02.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-30T07:13:04.624Z"}
+info: Connected to the database. {"timestamp":"2024-11-30T07:13:04.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-11-30T07:24:50.254Z"}
+info: Connected to the database. {"timestamp":"2024-11-30T07:24:50.311Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-01T13:41:48.375Z"}
+info: Connected to the database. {"timestamp":"2024-12-01T13:41:48.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-02T05:24:53.837Z"}
+info: Connected to the database. {"timestamp":"2024-12-02T05:24:53.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-03T05:24:39.685Z"}
+info: Connected to the database. {"timestamp":"2024-12-03T05:24:39.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-03T12:17:54.925Z"}
+info: Connected to the database. {"timestamp":"2024-12-03T12:17:55.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-03T12:22:01.510Z"}
+info: Connected to the database. {"timestamp":"2024-12-03T12:22:01.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-03T14:54:23.415Z"}
+info: Connected to the database. {"timestamp":"2024-12-03T14:54:23.510Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-04T05:37:49.497Z"}
+info: Connected to the database. {"timestamp":"2024-12-04T05:37:49.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-04T06:52:33.081Z"}
+info: Connected to the database. {"timestamp":"2024-12-04T06:52:33.183Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-04T11:13:42.668Z"}
+info: Connected to the database. {"timestamp":"2024-12-04T11:13:42.780Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-04T17:28:25.627Z"}
+info: Connected to the database. {"timestamp":"2024-12-04T17:28:25.658Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-04T17:29:00.677Z"}
+info: Connected to the database. {"timestamp":"2024-12-04T17:29:00.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-04T17:31:34.880Z"}
+info: Connected to the database. {"timestamp":"2024-12-04T17:31:34.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-04T17:32:07.641Z"}
+info: Connected to the database. {"timestamp":"2024-12-04T17:32:07.699Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-05T05:23:44.616Z"}
+info: Connected to the database. {"timestamp":"2024-12-05T05:23:44.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-05T05:41:51.806Z"}
+info: Connected to the database. {"timestamp":"2024-12-05T05:41:51.841Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-05T05:43:24.972Z"}
+info: Connected to the database. {"timestamp":"2024-12-05T05:43:25.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-06T04:59:22.632Z"}
+info: Connected to the database. {"timestamp":"2024-12-06T04:59:22.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-07T17:50:33.984Z"}
+info: Connected to the database. {"timestamp":"2024-12-07T17:50:34.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-08T10:40:00.216Z"}
+info: Connected to the database. {"timestamp":"2024-12-08T10:40:00.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-09T06:05:13.984Z"}
+info: Connected to the database. {"timestamp":"2024-12-09T06:05:14.089Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-10T08:41:47.623Z"}
+info: Connected to the database. {"timestamp":"2024-12-10T08:41:47.709Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-11T04:49:00.490Z"}
+info: Connected to the database. {"timestamp":"2024-12-11T04:49:00.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-11T08:39:28.798Z"}
+info: Connected to the database. {"timestamp":"2024-12-11T08:39:28.846Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-11T08:40:09.652Z"}
+info: Connected to the database. {"timestamp":"2024-12-11T08:40:09.758Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-11T08:43:59.167Z"}
+info: Connected to the database. {"timestamp":"2024-12-11T08:43:59.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-11T09:54:42.474Z"}
+info: Connected to the database. {"timestamp":"2024-12-11T09:54:42.579Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-11T16:19:31.532Z"}
+info: Connected to the database. {"timestamp":"2024-12-11T16:19:31.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-11T16:29:52.737Z"}
+info: Connected to the database. {"timestamp":"2024-12-11T16:29:52.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-11T16:37:19.976Z"}
+info: Connected to the database. {"timestamp":"2024-12-11T16:37:20.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-12-11T16:38:10.486Z"}
+info: Connected to the database. {"timestamp":"2024-12-11T16:38:10.519Z"}
